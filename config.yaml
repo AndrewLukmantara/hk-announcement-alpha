@@ -4,8 +4,8 @@ project:
 
 dates:
   start: "2021-01-01"
-  end: "2025-12-31"
-  oos_start: "2024-01-01"        # everything before = in-sample (parameter selection)
+  end: "2026-10-16"
+  oos_start: "2025-08-01"        # after the LLM's training-data cutoff (Haiku 4.5: Jul 2025) -> clean test
 
 universe:
   tickers_file: data/universe.csv  # starter list; replace with historical HSCI constituents
@@ -17,7 +17,8 @@ market:
 
 nlp:
   use_llm: false                   # true -> score with Claude (needs ANTHROPIC_API_KEY)
-  llm_model: claude-haiku-5-5
+  llm_model: claude-haiku-4-5      # training data ends Jul 2025 -> ~14 months of look-ahead-free OOS.
+                                   # Haiku 5.5 is stronger but its data runs to Jun 2026 (only ~3.5 months clean).
   llm_lang_modes: [both, en, zh]
   llm_max_workers: 8
   use_pdf_text: false              # true -> also send first ~2,000 chars of the PDF to the LLM

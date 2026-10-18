@@ -61,6 +61,8 @@ def run(cfg: dict, synthetic: bool = False, regenerate: bool = False, llm_offlin
     primary = cfg["signal"]["primary"]
     if primary not in ev:
         raise KeyError(f"signal.primary={primary} not scored; enable nlp.use_llm or pick a kw_* variant")
+    if ev[primary].isna().mean() > 0.5:
+        raise ValueError(f"{primary} is missing for most events: run `hkalpha score-llm` first")
 
     # ---- event study
     es = cfg["event_study"]

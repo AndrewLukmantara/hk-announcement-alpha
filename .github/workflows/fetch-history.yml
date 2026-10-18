@@ -1,0 +1,50 @@
+# Step 3: fetch announcement history + prices, optionally score with the LLM, run the study.
+# Actions tab -> fetch-history -> Run workflow. Resumable: if it hits the time limit,
+# run it again and it continues from the last saved day.
+# For LLM scoring add a repo secret ANTHROPIC_API_KEY (Settings -> Secrets -> Actions).
+name: fetch-history
+on:
+  workflow_dispatch:
+    inputs:
+      start: { description: "Start date (blank = config.yaml)", default: "" }
+      end:   { description: "End date (blank = config.yaml)",   default: "" }
+      run_study: { description: "Run the research pipeline afterwards", type: boolean, default: true }
+permissions:
+  contents: write
+concurrency: data-branch
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -e ".[live]"
+      - name: Restore data branch
+        run: scripts/data_branch.sh restore
+      - name: Announcements (stops at 300 min so progress is saved)
+        run: |
+          ARGS=""
+          [ -n "${{ github.event.inputs.start }}" ] && ARGS="$ARGS --start ${{ github.event.inputs.start }}"
+          [ -n "${{ github.event.inputs.end }}" ] && ARGS="$ARGS --end ${{ github.event.inputs.end }}"
+          timeout 300m hkalpha fetch-announcements $ARGS || echo "::warning::stopped early; re-run to resume"
+      - name: Prices
+        run: hkalpha fetch-prices
+      - name: Save data branch
+        if: always()
+        run: scripts/data_branch.sh save "history fetch $(date -u +%F)"
+      - name: LLM scoring
+        if: env.ANTHROPIC_API_KEY != ''
+        run: hkalpha score-llm && scripts/data_branch.sh save "llm scores $(date -u +%F)"
+      - name: Research run
+        if: github.event.inputs.run_study == 'true'
+        run: |
+          FLAG=""; [ -n "$ANTHROPIC_API_KEY" ] && FLAG="--use-llm"
+          hkalpha run $FLAG
+      - uses: actions/upload-artifact@v4
+        if: github.event.inputs.run_study == 'true'
+        with: { name: reports-live, path: reports/live/ }

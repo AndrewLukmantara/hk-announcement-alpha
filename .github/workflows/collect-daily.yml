@@ -1,0 +1,41 @@
+# Step 2: daily collection of the data HKEX does not keep (short selling = today only,
+# Southbound = ~12 months). Results are committed to the `data` branch.
+# First run: Actions tab -> collect-daily -> Run workflow, with backfill_days=360 to grab
+# the Southbound history before it expires.
+name: collect-daily
+on:
+  schedule:
+    - cron: "45 8 * * 1-5"   # 16:45 HKT Mon-Fri: today's short-selling report
+    - cron: "0 1 * * 2-6"    # 09:00 HKT Tue-Sat: yesterday's Southbound holdings
+  workflow_dispatch:
+    inputs:
+      backfill_days:
+        description: "Southbound backfill window in days (0 = yesterday only; 360 for the first run)"
+        default: "0"
+permissions:
+  contents: write
+concurrency: data-branch
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -e .
+      - name: Restore data branch
+        run: scripts/data_branch.sh restore
+      - name: Short selling
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '45 8 * * 1-5'
+        run: hkalpha fetch-shortselling || echo "::warning::short-selling page unavailable"
+      - name: Southbound
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 1 * * 2-6'
+        run: |
+          DAYS="${{ github.event.inputs.backfill_days || '0' }}"
+          START=$(python -c "import datetime as d;print(d.date.today()-d.timedelta(days=max(1,int('$DAYS'))))")
+          END=$(python -c "import datetime as d;print(d.date.today()-d.timedelta(days=1))")
+          hkalpha fetch-southbound --start "$START" --end "$END"
+      - name: Save data branch
+        run: scripts/data_branch.sh save "daily collection $(date -u +%F)"
