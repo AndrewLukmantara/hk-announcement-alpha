@@ -28,7 +28,7 @@ This repository is an end-to-end research pipeline that answers that question. I
 > **These results come from the synthetic validation market, not from real HKEX data.**
 > The synthetic market has a known planted effect: a 3% reaction plus a 2% five-day drift that grows with Southbound buying. These numbers show that the pipeline recovers that effect correctly. They say nothing about real Hong Kong stocks. Live results will replace this section once the data collection finishes.
 
-**Sample:** 2021–2025, with 2024–2025 held out as out-of-sample. 6,000+ announcement–stock events across 80 stocks. The primary signal is the bilingual keyword score.
+**Sample:** January 2021 to October 2026, with August 2025 onward held out as out-of-sample. That split falls after the LLM scorer's training-data cutoff. 7,125 announcement–stock events across 80 stocks. The primary signal is the bilingual keyword score.
 
 ### 1. Announcements move prices, and the move keeps going
 
@@ -38,9 +38,9 @@ Day 0 is the reaction from the prior close to the first tradable close, which yo
 
 | Sentiment | Events | Reaction, day 0 (bps) | Drift, days 1–5 (bps) | t-stat (1–5) |
 |---|---:|---:|---:|---:|
-| Positive | 788 | +167 | +61 | 3.3 |
-| Neutral | 3,291 | +3 | −6 | −0.7 |
-| Negative | 757 | −158 | −86 | −4.7 |
+| Positive | 974 | +169 | +113 | 7.1 |
+| Neutral | 3,933 | +2 | +2 | 0.3 |
+| Negative | 913 | −162 | −92 | −5.7 |
 
 ### 2. Southbound flow amplifies the drift
 
@@ -48,11 +48,11 @@ This is a regression of 5-day drift on sentiment, its interactions with Southbou
 
 | Term | Coefficient | z |
 |---|---:|---:|
-| Sentiment | 0.0115 | 6.0 |
-| Sentiment × Southbound flow | 0.0074 | 4.0 |
-| Sentiment × short interest | 0.0022 | 1.1 |
+| Sentiment | 0.0142 | 9.1 |
+| Sentiment × Southbound flow | 0.0105 | 6.6 |
+| Sentiment × short interest | 0.0038 | 2.4 |
 
-The planted interaction is recovered with a z-statistic of 4. In the live run, this is the core test of the project.
+The planted Southbound interaction is recovered with a z-statistic of 6.6. The short-interest term was not planted, so its z of 2.4 is a reminder to correct for multiple tests on real data. In the live run, this is the core test of the project.
 
 ### 3. The backtest: alpha exists, but costs eat most of it
 
@@ -60,14 +60,14 @@ The planted interaction is recovered with a z-statistic of 4. In the live run, t
 
 | Signal | OOS IC (5d) | OOS Sharpe, gross | OOS Sharpe, net | Daily turnover |
 |---|---:|---:|---:|---:|
-| Keyword, English + Chinese | 0.041 | 1.80 | 0.50 | 30% |
-| Keyword, English only | 0.046 | 1.92 | 0.71 | 29% |
-| Keyword, Chinese only | 0.039 | 1.31 | 0.04 | 30% |
-| Keyword × Southbound flow | 0.038 | 1.57 | −0.03 | 38% |
-| Keyword × flow, weekly rebalance | 0.023 | 1.12 | 0.26 | 13% |
-| Southbound flow only (no news) | −0.009 | −0.04 | −4.90 | 60% |
+| Keyword, English + Chinese | 0.081 | 2.86 | 1.41 | 29% |
+| Keyword, English only | 0.083 | 2.98 | 1.60 | 28% |
+| Keyword, Chinese only | 0.075 | 2.50 | 1.26 | 27% |
+| Keyword × Southbound flow | 0.080 | 2.94 | 1.12 | 38% |
+| Keyword × flow, weekly rebalance | 0.047 | 1.15 | 0.28 | 12% |
+| Southbound flow only (no news) | −0.003 | −0.70 | −5.84 | 60% |
 
-Each round trip costs about 38 bps, including 10 bps of stamp duty on each side. That cost turns a gross Sharpe near 1.8 into roughly 0.5 net. Controlling turnover is the main lever on real data. Flow on its own, without news, has no edge.
+Each round trip costs about 38 bps, including 10 bps of stamp duty on each side. That cost cuts a gross Sharpe near 2.9 to about 1.4 net. Controlling turnover is the main lever on real data. Flow on its own, without news, has no edge.
 
 ![IC decay](docs/figures/ic_decay.png)
 
@@ -130,7 +130,8 @@ Everything is controlled by `config.yaml`. These are the settings that matter mo
 
 | Setting | Default | Effect |
 |---|---|---|
-| `dates.oos_start` | `2024-01-01` | Start of the out-of-sample period. Set it after the LLM's training cutoff for a clean test. |
+| `dates.oos_start` | `2025-08-01` | Start of the out-of-sample period, set after the LLM's training-data cutoff. |
+| `nlp.llm_model` | `claude-haiku-4-5` | Scoring model. Its training data ends July 2025, which leaves about 14 months of clean out-of-sample data. |
 | `signal.primary` | `kw_both` | Main signal. Switch to `llm_both` once LLM scores exist. |
 | `signal.half_lives` | `[2, 5, 10, 20]` | Candidate decay half-lives. The best one is chosen on in-sample IC. |
 | `signal.flow_tilt` | `0.5` | How strongly Southbound flow scales the news signal. |
@@ -163,6 +164,19 @@ The backtest rules are as follows. Weights are set at the close of day *t* and e
 
 ## Running on real HKEX data
 
+### Option 1: in the cloud with GitHub Actions (recommended)
+
+Two workflows do all the data work on GitHub's servers and save results to a separate `data` branch. Your laptop doesn't need to stay on.
+
+| Workflow | What it does | How to start |
+|---|---|---|
+| `collect-daily` | Saves the short-selling report each weekday at 16:45 HKT, and yesterday's Southbound holdings at 09:00 HKT | Runs automatically. Trigger it once by hand with `backfill_days = 360` to save the 12 months of Southbound history before it expires. |
+| `fetch-history` | Fetches the announcement history and prices, scores with the LLM if `ANTHROPIC_API_KEY` is set as a repo secret, runs the study, and uploads `reports/live/` | Actions tab → fetch-history → Run workflow. Resumable: if it hits the time limit, run it again. |
+
+To use the data locally, run `scripts/data_branch.sh restore`.
+
+### Option 2: on your machine
+
 ```bash
 hkalpha fetch-announcements --start 2021-01-01 --end 2025-12-31   # about 1 request/s, resumable
 hkalpha fetch-prices                                              # universe from data/universe.csv
@@ -182,7 +196,7 @@ HKEX only publishes Southbound and short-selling data for a limited window, so c
 0  9  * * 2-6  cd ~/hk-announcement-alpha && hkalpha fetch-southbound --start $(date -d yesterday +\%F) --end $(date -d yesterday +\%F)
 ```
 
-**Check the scorer before trusting any backtest.** Run `hkalpha label-sample --n 400` and fill in `label_sentiment` (from −1 to 1) in the CSV it writes. Then run `hkalpha eval-labels --labels data/raw/label_sample.csv`, which reports each scorer's Spearman correlation and sign accuracy against your labels.
+**Check the scorer before trusting any backtest.** Run `hkalpha label-sample --n 400` and label the CSV it writes by following [`docs/labeling_guide.md`](docs/labeling_guide.md). Then run `hkalpha eval-labels --labels data/raw/label_sample.csv`, which reports each scorer's Spearman correlation and sign accuracy against your labels.
 
 ---
 
@@ -193,7 +207,7 @@ HKEX only publishes Southbound and short-selling data for a limited window, so c
 | Trading on news before it is public | Entry is the first close at least 30 minutes after publication. A unit test checks that future events never change past scores. |
 | Counting the untradable reaction | Day-0 return is reported but never traded. Only drift from day 1 onward counts. |
 | Stale or early features | Southbound and short-selling features are lagged one day, matching when HKEX publishes them. |
-| LLM remembering outcomes | Issuer names and codes are stripped from prompts. The clean test is the period after the model's training cutoff. |
+| LLM remembering outcomes | Issuer names and codes are stripped from prompts. The scorer is Claude Haiku 4.5 (training data to July 2025), and the out-of-sample period starts August 2025, so the model cannot have seen the outcomes it is tested on. |
 | Overfitting | Parameters are chosen in-sample only. Every result is reported both in-sample and out-of-sample. |
 | Many filings on one night | Regression standard errors are clustered by announcement date. |
 | Unrealistic costs | The full HK schedule applies: 10 bps stamp duty per side, exchange, SFC and AFRC levies, commission, slippage, and borrow. |
@@ -221,9 +235,10 @@ src/hkalpha/
   features.py    price panel, liquidity, Southbound flow and short-interest z-scores
   event_study.py · signal.py · backtest.py · metrics.py · report.py · pipeline.py · cli.py
 examples/        custom_backtest.py
-scripts/         publish_results.sh
+scripts/         run_live.sh · data_branch.sh · publish_results.sh
 tests/           unit and end-to-end tests
-docs/            figures and the write-up outline
+docs/            figures, labelling guide, write-up outline
+.github/         tests, daily collection, history fetch
 config.yaml      every research setting
 ```
 
