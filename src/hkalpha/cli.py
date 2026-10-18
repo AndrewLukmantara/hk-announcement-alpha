@@ -22,6 +22,7 @@ def main(argv=None):
     ev = sub.add_parser("eval-labels"); ev.add_argument("--labels", required=True)
     r = sub.add_parser("run"); r.add_argument("--synthetic", action="store_true")
     r.add_argument("--regenerate", action="store_true")
+    r.add_argument("--use-llm", action="store_true", help="include cached LLM scores; primary signal = llm_both")
     args = p.parse_args(argv)
 
     cfg = load_config(args.config)
@@ -61,6 +62,9 @@ def main(argv=None):
         print(evaluate_scorers(labels, scores, cols).to_string(index=False))
     elif args.cmd == "run":
         from .pipeline import run
+        if args.use_llm:
+            cfg["nlp"]["use_llm"] = True
+            cfg["signal"]["primary"] = "llm_both"
         run(cfg, synthetic=args.synthetic, regenerate=args.regenerate)
 
 
