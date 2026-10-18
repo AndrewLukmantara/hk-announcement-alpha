@@ -6,6 +6,7 @@
 #
 # Optional: export ANTHROPIC_API_KEY=... first to add the LLM scorer.
 set -euo pipefail
+ago() { python -c "import datetime as d;print(d.date.today()-d.timedelta(days=$1))"; }  # portable (macOS + Linux)
 cd "$(dirname "$0")/.."
 MODE="${1:-smoke}"
 
@@ -13,12 +14,12 @@ pip install -q -e ".[live,dev]"
 pytest -q
 
 if [ "$MODE" = "smoke" ]; then
-  START=$(date -d "45 days ago" +%F); END=$(date -d "15 days ago" +%F)
+  START=$(ago 45); END=$(ago 15)
 else
   START=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['dates']['start'])")
   END=$(python -c "import yaml;print(yaml.safe_load(open('config.yaml'))['dates']['end'])")
 fi
-SB_START=$(date -d "360 days ago" +%F); YESTERDAY=$(date -d yesterday +%F)
+SB_START=$(ago 360); YESTERDAY=$(ago 1)
 
 echo "== announcements $START -> $END";   hkalpha fetch-announcements --start "$START" --end "$END"
 echo "== prices";                          hkalpha fetch-prices
