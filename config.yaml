@@ -1,0 +1,53 @@
+project:
+  data_dir: data
+  reports_dir: reports
+
+dates:
+  start: "2021-01-01"
+  end: "2025-12-31"
+  oos_start: "2024-01-01"        # everything before = in-sample (parameter selection)
+
+universe:
+  tickers_file: data/universe.csv  # starter list; replace with historical HSCI constituents
+  min_adv_hkd: 20000000            # 20-day avg turnover filter (HKD), lagged 1 day
+
+market:
+  index_ticker: "^HSI"
+  entry_lag_minutes: 30            # need >= 30 min between announcement and the close you trade at
+
+nlp:
+  use_llm: false                   # true -> score with Claude (needs ANTHROPIC_API_KEY)
+  llm_model: claude-haiku-5-5
+  llm_lang_modes: [both, en, zh]
+  llm_max_workers: 8
+  use_pdf_text: false              # true -> also send first ~2,000 chars of the PDF to the LLM
+
+event_study:
+  est_window: [-250, -30]          # market-model estimation window, trading days vs entry
+  horizons: [1, 5, 20]
+  min_est_obs: 120
+
+signal:
+  primary: kw_both                 # switch to llm_both once LLM scores exist
+  half_lives: [2, 5, 10, 20]       # trading days; chosen on in-sample IC
+  selection_horizon: 5             # IC horizon used for half-life selection
+  flow_window: 5                   # Southbound shareholding change window (days)
+  flow_tilt: 0.5                   # news score x (1 + k * flow_z)
+
+backtest:
+  mode: long_short                 # long_short | long_only
+  quantile: 0.3
+  min_names: 3
+  rebalance_every_slow: 5         # extra low-turnover variant (trade weekly)
+  costs:                           # per side, as fractions of notional
+    stamp_duty: 0.001              # 0.1% each side (since Nov 2023)
+    trading_fee: 0.0000565
+    sfc_levy: 0.000027
+    afrc_levy: 0.0000015
+    commission_bps: 3
+    slippage_bps: 5
+    borrow_bps_annual: 100
+
+synthetic:
+  n_stocks: 80
+  seed: 7
