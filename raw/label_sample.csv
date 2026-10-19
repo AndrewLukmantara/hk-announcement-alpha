@@ -1,0 +1,566 @@
+﻿news_id,stock_code,datetime,title_en,title_zh,category_en,label_sentiment,label_event_type,label_note,labeller
+9665993,09888,2021-03-22 06:33:00,Announcement of Offer Price and Allotment Results,發售價及配發結果公告,Announcements and Notices - [Allotment Results],0.0,other,,claude-opus-5-5
+9614152,01024,2021-02-04 06:20:00,ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS,發售價及分配結果公告,Announcements and Notices - [Allotment Results],0.0,other,,claude-opus-5-5
+10648811,00288,2023-03-28 16:58:00,PROPOSED ADOPTION OF THE NEW AMENDED AND RESTATED MEMORANDUM AND ARTICLES OF ASSOCIATION,"建議採納新經修訂和重述的
+公司章程大綱細則",Announcements and Notices - [Amendment of Constitutional Documents],0.0,routine,,claude-opus-5-5
+10963799,01398,2023-11-09 20:35:00,Announcement in relation to the Approval from NAFR in relation to the Amendments to the Articles,關於公司章程修訂獲國家金融監督管理總局核准的公告,Announcements and Notices - [Amendment of Constitutional Documents],0.0,routine,,claude-opus-5-5
+11896059,01211,2025-10-30 22:15:00,PROPOSED AMENDMENTS TO THE ARTICLES OF ASSOCIATION AND THE RELEVANT RULES OF PROCEDURE,建議修訂公司章程及相關議事規則,Announcements and Notices - [Amendment of Constitutional Documents],0.0,routine,,claude-opus-5-5
+10277381,02319,2022-05-27 22:25:00,"JOINT ANNOUNCEMENT
+DELAY IN DESPATCH OF SCHEME DOCUMENT
+RELATING TO
+PRE-CONDITIONAL PRIVATIZATION OF YASHILI BY
+STAR FUTURE INVESTMENT COMPANY LIMITED BY WAY OF
+A SCHEME OF ARRANGEMENT (UNDER SECTION 86 OF
+THE COMPANIES ACT) AND PROPOSED WITHDRAWAL OF
+LISTING OF YASHILI","聯合公告
+延遲寄發有關星萊投資有限公司透過協議安排方式（根據公司法第86條）
+對雅士利進行附先決條件私有化及建議撤銷雅士利上市地位之計劃文件",Announcements and Notices - [Announcement by Offeree Company under the Takeovers Code / Announcement by Offeror Company under the Takeovers Code / Privatisation/Withdrawal or Cancellation of Listing of Securities / Group Restructuring or Scheme of Arrangement / Delay in Dispatch of Circular or other Document],0.0,privatisation,"delay in despatch, procedural",claude-opus-5-5
+10601581,02319,2023-02-13 20:09:00,"JOINT ANNOUNCEMENT - PRE-CONDITIONAL PRIVATIZATION OF YASHILI BY STAR
+FUTURE INVESTMENT COMPANY LIMITED BY WAY OF A
+SCHEME OF ARRANGEMENT (UNDER SECTION 86 OF THE
+COMPANIES ACT) AND PROPOSED WITHDRAWAL OF LISTING
+OF YASHILI - MONTHLY UPDATE",聯合公告 - 星萊投資有限公司透過協議安排方式（根據公司法第86條）對雅士利進行附先決條件私有化及建議撤銷雅士利上市地位 - 每月更新,Announcements and Notices - [Announcement by Offeree Company under the Takeovers Code / Announcement by Offeror Company under the Takeovers Code / Privatisation/Withdrawal or Cancellation of Listing of Securities / Group Restructuring or Scheme of Arrangement],0.0,privatisation,monthly update,claude-opus-5-5
+10783475,02319,2023-06-23 18:59:00,"JOINT ANNOUNCEMENT - PROPOSED PRIVATIZATION OF YASHILI BY STAR FUTURE INVESTMENT COMPANY LIMITED BY WAY OF A SCHEME
+OF ARRANGEMENT (UNDER SECTION 86 OF THE COMPANIES ACT) AND PROPOSED WITHDRAWAL OF LISTING OF YASHILI (1) RESULTS OF THE COURT MEETING AND THE SCHEME EGM AND (2) CLOSURE OF REGISTER OF MEMBERS OF YASHILI",聯合公告 - 星萊投資有限公司建議透過協議安排方式（根據公司法第86條）對雅士利進行私有化及建議撤銷雅士利上市地位(1) 法院會議及計劃特別股東大會結果及(2) 雅士利暫停辦理股份過戶登記手續,Announcements and Notices - [Announcement by Offeree Company under the Takeovers Code / Announcement by Offeror Company under the Takeovers Code / Privatisation/Withdrawal or Cancellation of Listing of Securities / Group Restructuring or Scheme of Arrangement / Results of EGM/SGM / Closure of Books or Change of Book Closure Period],0.5,privatisation,scheme approved at court meeting/EGM,claude-opus-5-5
+11930065,00005,2025-11-27 16:30:00,Joint Announcement - Monthly update on privatisation of Hang Seng Bank,聯合公告 – 恒生銀行私有化之月度進展情況,Announcements and Notices - [Announcement by Offeror Company under the Takeovers Code / Announcement by Offeree Company under the Takeovers Code / Group Restructuring or Scheme of Arrangement],0.0,privatisation,monthly update; HSBC is offeror,claude-opus-5-5
+11999450,00005,2026-01-23 16:30:00,Joint Announcement - (1) Proposal for the Privatisation of Hang Seng Bank Limited by The Hongkong and Shanghai Banking Corporation Limited by way of a Scheme of Arrangement under Section 673 of the Companies Ordinance (2) Sanction of the Scheme by the High Court (3) Expected Effective Date of the Scheme and (4) Expected Date of Withdrawal of Listing of Hang Seng Bank Shares,聯合公告 – (1) 香港上海滙豐銀行有限公司根據《公司條例》第673條以協議安排方式將恒生銀行有限公司私有化之建議 (2) 高等法院認許計劃 (3) 預期計劃生效日期及 (4) 預期撤銷恒生銀行股份上市地位的日期,Announcements and Notices - [Announcement by Offeror Company under the Takeovers Code / Announcement by Offeree Company under the Takeovers Code / Group Restructuring or Scheme of Arrangement],0.0,privatisation,court sanction; HSBC is offeror,claude-opus-5-5
+11873917,00005,2025-10-09 07:50:00,JOINT ANNOUNCEMENT - PROPOSAL FOR THE PRIVATISATION OF HANG SENG BANK LIMITED AND DISCLOSEABLE TRANSACTION OF HSBC HOLDINGS PLC IN RELATION TO THE PROPOSAL,聯合公告 - 將恒生銀行有限公司私有化之建議及滙豐控股有限公司與建議有關的須予披露交易,Announcements and Notices - [Announcement by Offeror Company under the Takeovers Code / Announcement by Offeree Company under the Takeovers Code / Group Restructuring or Scheme of Arrangement / Inside Information / Discloseable Transaction],-0.5,mna,HSBC is the offeror paying a premium for Hang Seng,claude-opus-5-5
+9931186,00288,2021-09-08 20:50:00,"(1) CONDITIONAL VOLUNTARY CASH OFFER
+BY MERRILL LYNCH (ASIA PACIFIC) LIMITED AND MORGAN
+STANLEY ASIA LIMITED ON BEHALF OF THE COMPANY TO
+BUY-BACK UP TO 1,916,937,202 SHARES AT A PRICE OF HK$7.80
+PER SHARE
+AND
+(2) WHITEWASH WAIVER
+COMPLETION OF THE OFFER","(1) MERRILL LYNCH (ASIA PACIFIC) LIMITED及
+摩根士丹利亞洲有限公司代表本公司提出
+有條件自願性現金要約以按每股股份7.80港元之價格回購
+最多達1,916,937,202股股份
+及
+(2) 清洗豁免
+要約完成",Announcements and Notices - [Announcement pursuant to Code on Share Buy-backs / Announcement by Offeree Company under the Takeovers Code / Announcement by Offeror Company under the Takeovers Code],1.0,buyback,tender-offer buy-back of up to 1.9bn shares,claude-opus-5-5
+9816283,00288,2021-06-25 17:57:00,APPOINTMENT OF INDEPENDENT FINANCIAL ADVISER,委任獨立財務顧問,Announcements and Notices - [Announcement pursuant to Code on Share Buy-backs],0.0,routine,,claude-opus-5-5
+9796815,00288,2021-06-07 19:49:00,"UPDATE ANNOUNCEMENT
+(1) CONDITIONAL VOLUNTARY CASH OFFER
+BY MERRILL LYNCH (ASIA PACIFIC) LIMITED AND
+MORGAN STANLEY ASIA LIMITED ON BEHALF OF
+THE COMPANY TO BUY-BACK UP TO 1,916,937,202 SHARES
+AT A PRICE OF HK$7.80 PER SHARE
+AND
+(2) APPLICATION FOR WHITEWASH WAIVER
+UNAUDITED CONSOLIDATED QUARTERLY RESULTS FOR THE
+THREE MONTHS ENDED 31 MARCH 2021","更新公告
+(1) MERRILL LYNCH (ASIA PACIFIC) LIMITED及
+摩根士丹利亞洲有限公司代表本公司提出有條件自願性現金要約
+以按每股股份7.80港元之價格回購最多達1,916,937,202股股份
+及
+(2)申請清洗豁免
+截至二零二一年三月三十一日止三個月未經審核綜合季度業績",Announcements and Notices - [Announcement pursuant to Code on Share Buy-backs],0.0,buyback,update on known offer,claude-opus-5-5
+11666738,01211,2025-05-07 17:49:00,BONUS ISSUE FOR THE YEAR ENDED 31 DECEMBER 2024 (UPDATE),截至二零二四年十二月三十一日止年度之紅股(更新),Announcements and Notices - [Bonus Issue (Announcement Form)],0.0,dividend,update to bonus issue,claude-opus-5-5
+11637927,01211,2025-04-24 07:56:00,Bonus issue for the year ended 31 December 2024,截至二零二四年十二月三十一日止年度之紅股,Announcements and Notices - [Bonus Issue (Announcement Form)],0.5,dividend,bonus issue,claude-opus-5-5
+11724058,00005,2025-06-24 22:15:00,CAPITAL REDUCTION TO INCREASE DISTRIBUTABLE RESERVES,透過資本削減增加可供分派儲備,Announcements and Notices - [Capital Reorganisation],0.0,other,,claude-opus-5-5
+11151192,00175,2024-04-08 16:30:00,PROPOSED INCREASE IN AUTHORISED SHARE CAPITAL,建議增加法定股本,Announcements and Notices - [Capital Reorganisation],0.0,routine,,claude-opus-5-5
+9671314,00941,2021-03-25 12:03:00,PROPOSED CHANGE OF AUDITORS,建議更換核數師,Announcements and Notices - [Change in Auditors],0.0,other,"proposed auditor change (rotation), not a resignation",claude-opus-5-5
+10180438,01211,2022-03-29 22:58:00,"(1) PROPOSED PREPARATION OF
+FINANCIAL STATEMENTS IN ACCORDANCE WITH
+CHINA ACCOUNTING STANDARDS FOR BUSINESS ENTERPRISES;
+AND
+(2) PROPOSED CESSATION OF APPOINTMENT OF
+THE INTERNATIONAL AUDITOR",(1) 建議按照中國企業會計準則編製財務報表；及(2) 建議不再委任國際核數師,Announcements and Notices - [Change in Auditors / Other - Miscellaneous],0.0,other,,claude-opus-5-5
+11245105,02628,2024-06-11 16:58:00,Announcement - Proposed Change of Auditors,公告 - 建議更換審計師,Announcements and Notices - [Change in Auditors / Change in Auditors subject to Shareholders' Approval],0.0,other,proposed auditor change,claude-opus-5-5
+11817958,01211,2025-08-29 17:45:00,CHANGE IN BOARD LOT SIZE,更改每手買賣單位,Announcements and Notices - [Change in Board Lot Size],0.0,routine,,claude-opus-5-5
+12329671,00669,2026-09-11 18:14:00,CHANGE IN BOARD LOT SIZE,更改每手買賣單位,Announcements and Notices - [Change in Board Lot Size],0.0,routine,,claude-opus-5-5
+11103700,00291,2024-03-18 21:18:00,CHANGE IN BOARD LOT SIZE,更改每手買賣單位,Announcements and Notices - [Change in Board Lot Size],0.0,routine,,claude-opus-5-5
+11079351,00388,2024-02-29 16:30:00,Change in Chief Executive and Directorate,集團行政總裁及董事的變動,Announcements and Notices - [Change in Chief Executive / Change in Directors or of Important Executive Functions or Responsibilities],-0.5,management_change,CEO departure,claude-opus-5-5
+11851693,00823,2025-09-23 16:30:00,"Updates on Leadership Transition, Appointment of Executive Director and Change of Authorised Representative",領導層過渡安排、執行董事委任及授權代表變更,Announcements and Notices - [Change in Chief Executive / Change in Directors or of Important Executive Functions or Responsibilities],0.0,management_change,planned transition,claude-opus-5-5
+11047635,01928,2024-01-24 20:30:00,"Re-Designation of Director, Appointment of Executive Vice Chairman, Appointment of Chief Executive Officer and President, and Changes to Senior Management",調任董事，委任行政副主席，委任行政總裁兼總裁及高級管理層變動,Announcements and Notices - [Change in Chief Executive / Change in Directors or of Important Executive Functions or Responsibilities],0.0,management_change,,claude-opus-5-5
+10471047,00005,2022-10-17 17:30:00,APPOINTMENT OF JOINT COMPANY SECRETARY,委任聯席公司秘書,Announcements and Notices - [Change in Company Secretary],0.0,management_change,,claude-opus-5-5
+11315816,01398,2024-08-07 21:05:00,Announcement on the Appointment of Board Secretary and Company Secretary,董事會秘書及公司秘書任職的公告,Announcements and Notices - [Change in Company Secretary / Change in Directors or of Important Executive Functions or Responsibilities],0.0,management_change,,claude-opus-5-5
+11892225,03988,2025-10-28 16:55:00,Announcement on the Resignation of Mr. Zhuo Chengwen as Secretary to the Board of Directors and Company Secretary of the Bank,關於董事會秘書及公司秘書卓成文先生離任的公告,Announcements and Notices - [Change in Company Secretary],0.0,management_change,company secretary only,claude-opus-5-5
+10438622,01211,2022-09-21 17:16:00,CHANGE OF COMPANY'S WEBSITE ADDRESS,更改公司網址,Announcements and Notices - [Change in Company Website],0.0,routine,,claude-opus-5-5
+11201649,01024,2024-05-06 17:24:00,CHANGE OF COMPLIANCE ADVISER,變更合規顧問,Announcements and Notices - [Change in Compliance Adviser],0.0,routine,,claude-opus-5-5
+10024837,01398,2021-11-25 19:55:00,Announcement of the Resolutions of the Board of Directors,董事會決議公告,Announcements and Notices - [Change in Directors or of Important Executive Functions or Responsibilities / Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,,claude-opus-5-5
+11189871,01398,2024-04-29 20:38:00,Announcement of the Resolutions of the Board of Directors,董事會決議公告,Announcements and Notices - [Change in Directors or of Important Executive Functions or Responsibilities / Change of Remuneration Committee Member / Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,,claude-opus-5-5
+10889714,00016,2023-09-07 16:43:00,Retirement of Independent Non-Executive Director,獨立非執行董事之退任,Announcements and Notices - [Change in Directors or of Important Executive Functions or Responsibilities],0.0,management_change,INED retirement,claude-opus-5-5
+10365552,02318,2022-08-01 18:21:00,Change of Address of Principal Place of Business in Hong Kong,更改香港主要營業地點的地址,"Announcements and Notices - [Change in Registered Address or Office, Registered Place of Business in HK or Agent for Service of Process in HK]",0.0,routine,,claude-opus-5-5
+9932283,00291,2021-09-09 18:20:00,CHANGE OF ADDRESS OF REGISTERED OFFICE AND PRINCIPAL PLACE OF BUSINESS,更改註冊辦事處地址及主要營業地點,"Announcements and Notices - [Change in Registered Address or Office, Registered Place of Business in HK or Agent for Service of Process in HK]",0.0,routine,,claude-opus-5-5
+11508100,01810,2025-01-10 20:00:00,CHANGE OF ADDRESS OF PRINCIPAL PLACE OF BUSINESS IN HONG KONG,更改香港主要營業地點的地址,"Announcements and Notices - [Change in Registered Address or Office, Registered Place of Business in HK or Agent for Service of Process in HK]",0.0,routine,,claude-opus-5-5
+11449914,00883,2024-11-25 16:32:00,CHANGE OF HONG KONG SHARE REGISTRAR AND TRANSFER OFFICE,更換香港股份過戶登記處,Announcements and Notices - [Change in Share Registrar/Transfer Agent],0.0,routine,,claude-opus-5-5
+11531980,01093,2025-02-06 17:00:00,CHANGE OF SHARE REGISTRAR,更改股份過戶登記處,Announcements and Notices - [Change in Share Registrar/Transfer Agent],0.0,routine,,claude-opus-5-5
+11412375,00388,2024-10-23 16:30:00,Change of Share Registrar and Transfer Office,股份過戶登記處變更,Announcements and Notices - [Change in Share Registrar/Transfer Agent],0.0,routine,,claude-opus-5-5
+10930990,01398,2023-10-11 22:21:00,Announcement in Relation to Increase in Shareholding of The Bank by Its Controlling Shareholder,關於控股股東增持本行股份的公告,Announcements and Notices - [Change in Shareholding],0.5,other,controlling shareholder buying,claude-opus-5-5
+12096179,00857,2026-04-07 19:17:00,VOLUNTARY ANNOUNCEMENT ANNOUNCEMENT ON THE RESULTS OF THE INCREASE OF SHAREHOLDING BY THE CONTROLLING SHAREHOLDER,自願性公告關於控股股東增持公司股份結果的公告,Announcements and Notices - [Change in Shareholding],0.0,other,completion of known increase,claude-opus-5-5
+10930886,03988,2023-10-11 20:15:00,Announcement-Increase in Shareholding by Controlling Shareholder,公告-控股股東增持本行股份,Announcements and Notices - [Change in Shareholding],0.5,other,controlling shareholder buying,claude-opus-5-5
+10495182,02628,2022-11-04 16:31:00,Announcement - Resignation of Supervisor,公告 - 監事辭任,Announcements and Notices - [Change in Supervisors],0.0,management_change,supervisor,claude-opus-5-5
+9978316,02628,2021-10-19 16:37:00,Announcement - Approval of Qualification of Supervisors by the CBIRC and Resignation of Supervisor,公告 - 監事任職資格獲中國銀保監會核准及監事辭任,Announcements and Notices - [Change in Supervisors],0.0,management_change,,claude-opus-5-5
+9874891,02628,2021-08-02 16:34:00,Announcement - Election of Employee Representative Supervisor,公告 - 選舉職工代表監事,Announcements and Notices - [Change in Supervisors],0.0,management_change,,claude-opus-5-5
+10008668,00016,2021-11-11 12:05:00,Change in Director's Information,董事資料變更,Announcements and Notices - [Change in a Director's or Supervisor's Biographical Details],0.0,routine,,claude-opus-5-5
+10732894,00027,2023-05-10 18:53:00,Change in Director's Information,董事資料變更,Announcements and Notices - [Change in a Director's or Supervisor's Biographical Details],0.0,routine,,claude-opus-5-5
+11052331,00291,2024-01-29 18:54:00,RESIGNATION OF NON-EXECUTIVE DIRECTOR,非執行董事辭任,Announcements and Notices - [Change in a Director's or Supervisor's Biographical Details],-0.5,management_change,director resignation,claude-opus-5-5
+11484526,03988,2024-12-20 17:57:00,Announcement-Resolution of the Board of Directors,公告-董事會決議,Announcements and Notices - [Change of Audit Committee Member / Change of Remuneration Committee Member / Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,,claude-opus-5-5
+11937003,00012,2025-12-01 18:01:00,CHANGE OF MEMBERSHIP OF NOMINATION COMMITTEE,提名委員會成員之變動,Announcements and Notices - [Change of Nomination Committee Member / Change in Directors or of Important Executive Functions or Responsibilities],0.0,routine,,claude-opus-5-5
+11246435,02331,2024-06-12 17:08:00,CHANGE OF COMPOSITION OF REMUNERATION COMMITTEE,薪酬委員會人員組成變動,Announcements and Notices - [Change of Remuneration Committee Member],0.0,routine,,claude-opus-5-5
+10616315,00669,2023-03-01 18:16:00,Terms of Reference for Remuneration Committee,薪酬委員會職權範圍,Announcements and Notices - [Change of Remuneration Committee Member],0.0,routine,,claude-opus-5-5
+10220660,00883,2022-04-21 19:07:00,Remuneration Committee Charter,薪酬委員會章程,Announcements and Notices - [Change of Remuneration Committee Member],0.0,routine,,claude-opus-5-5
+11921860,00823,2025-11-19 19:10:00,Clarification Announcement,澄清公告,Announcements and Notices - [Clarification of News or Reports - Qualified],0.0,mna,PDF: non-binding offer for Australian malls,claude-opus-5-5
+9584851,01810,2021-01-15 12:29:00,CLARIFICATION ANNOUNCEMENT,澄清公告,Announcements and Notices - [Clarification of News or Reports - Qualified],-0.5,other,PDF: confirms US DoD NDAA listing,claude-opus-5-5
+10095649,00857,2022-01-20 08:14:00,CLARIFICATION ANNOUNCEMENT,澄清公告,Announcements and Notices - [Clarification of News or Reports - Qualified],-0.5,other,PDF: audit found crude-trading violations,claude-opus-5-5
+10962495,02318,2023-11-08 20:16:00,Clarification Announcement,澄清公告,Announcements and Notices - [Clarification of News or Reports - Standard or Super],0.5,other,PDF: denies Country Garden takeover rumour,claude-opus-5-5
+10765301,00669,2023-06-06 18:05:00,VOLUNTARY ANNOUNCEMENT - CLARIFICATION ANNOUNCEMENT IN RELATION TO AN ONLINE RESEARCH REPORT,自願公告 - 有關日前網上流傳的研究報告的澄清公告,Announcements and Notices - [Clarification of News or Reports - Standard or Super / Other - Miscellaneous],0.0,other,PDF: rebuts short-seller report,claude-opus-5-5
+10612477,00669,2023-02-28 16:31:00,CLARIFICATION ANNOUNCEMENT IN RELATION TO AN ONLINE RESEARCH REPORT AND RESUMPTION OF TRADING,有關澄清網上研究報告及復牌之公告,(Headlines Revised) Announcements and Notices - [Clarification of News or Reports - Standard or Super / Other - Miscellaneous / Resumption],0.0,other,"PDF: rebuts short report, resumption",claude-opus-5-5
+11105402,01211,2024-03-19 19:01:00,CLOSURE OF REGISTER OF MEMBERS,暫停辦理過戶登記,Announcements and Notices - [Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+9776181,00981,2021-05-25 17:51:00,CLOSURE OF REGISTER OF MEMBERS,暫停辦理股份過戶登記,Announcements and Notices - [Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+10835156,09988,2023-08-01 18:09:00,RECORD DATE,登記日期,Announcements and Notices - [Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+10399735,00883,2022-08-25 18:46:00,CONNECTED TRANSACTIONS TIME CHARTER PARTIES,關連交易 定期租船合同,Announcements and Notices - [Connected Transaction],0.0,routine,,claude-opus-5-5
+10712152,02628,2023-04-27 18:47:00,Announcement - Connected Transaction - Investment in Partnership Through Equity Investment Plan,公告 - 關連交易 - 通過股權投資計劃投資合夥企業,Announcements and Notices - [Connected Transaction],0.0,other,,claude-opus-5-5
+9711629,01211,2021-04-08 22:56:00,"CONNECTED TRANSACTION
+SUBSCRIPTION OF INTEREST IN A FUND",關連交易參與投資基金,Announcements and Notices - [Connected Transaction],0.0,other,,claude-opus-5-5
+10178249,00175,2022-03-29 16:34:00,"REVISION OF ANNUAL CAPS FOR
+CONTINUING CONNECTED TRANSACTIONS",修訂持續關連交易之年度上限,Announcements and Notices - [Continuing Connected Transaction],0.0,routine,,claude-opus-5-5
+9934956,02331,2021-09-13 16:54:00,CONTINUING CONNECTED TRANSACTIONS IN RELATION TO PROCESSING AND CUSTOMIZATION AGREEMENT,有關加工定作協議的持續關連交易,Announcements and Notices - [Continuing Connected Transaction],0.0,routine,,claude-opus-5-5
+10719270,01088,2023-04-28 22:46:00,CONTINUING CONNECTED TRANSACTIONS - ENTERING INTO FACTORING SERVICES AGREEMENT,持續關連交易 - 訂立保理服務協議,Announcements and Notices - [Continuing Connected Transaction],0.0,routine,,claude-opus-5-5
+9874837,00941,2021-08-02 16:31:00,DATE OF BOARD MEETING,董事會會議召開日期,Announcements and Notices - [Date of Board Meeting],0.0,routine,,claude-opus-5-5
+9649971,00857,2021-03-09 17:34:00,NOTICE OF BOARD MEETING,董事會會議通告,Announcements and Notices - [Date of Board Meeting],0.0,routine,,claude-opus-5-5
+9616478,01928,2021-02-05 12:12:00,Date of Board Meeting,董事會召開日期,Announcements and Notices - [Date of Board Meeting],0.0,routine,,claude-opus-5-5
+11295190,02318,2024-07-24 18:51:00,JOINT ANNOUNCEMENT (1) POSSIBLE MANDATORY UNCONDITIONAL CASH OFFERS BY MORGAN STANLEY FOR AND ON BEHALF OF THE JOINT OFFERORS TO ACQUIRE ALL LUFAX SHARES AND LUFAX ADSs AND TO CANCEL ALL OUTSTANDING LUFAX OPTIONS; AND (2) LUFAX PSU ARRANGEMENT WITH RESPECT TO ALL UNVESTED LUFAX PSUS  DELAY IN DESPATCH OF COMPOSITE DOCUMENT,聯合公告 (1) 摩根士丹利為及代表聯合要約人作出可能的強制性無條件現金要約以收購所有陸金所股份及陸金所美國存託股份及以註銷所有尚未歸屬陸金所期權；及 (2) 有關所有未歸屬陸金所績效股份單位的陸金所績效股份單位安排  延遲寄發綜合文件,Announcements and Notices - [Delay in Dispatch of Circular or other Document / Announcement by Offeree Company under the Takeovers Code / Announcement by Offeror Company under the Takeovers Code],0.0,mna,Ping An as offeror for Lufax,claude-opus-5-5
+9815063,00288,2021-06-24 21:28:00,"(1) CONDITIONAL VOLUNTARY CASH OFFER
+BY MERRILL LYNCH (ASIA PACIFIC) LIMITED AND
+MORGAN STANLEY ASIA LIMITED ON BEHALF OF THE
+COMPANY TO BUY-BACK UP TO 1,916,937,202 SHARES
+AT A PRICE OF HK$7.80 PER SHARE
+AND
+(2) APPLICATION FOR WHITEWASH WAIVER
+DELAY IN DESPATCH OF OFFER DOCUMENT","(1) MERRILL LYNCH (ASIA PACIFIC) LIMITED及摩根士丹利亞洲有限公司代表本公司提出有條件自願性現金要約以按每股股份7.80港元之價格回購最多達1,916,937,202股股份及(2) 申請清洗豁免延遲寄發要約文件",Announcements and Notices - [Delay in Dispatch of Circular or other Document / Announcement pursuant to Code on Share Buy-backs],0.0,buyback,delay in despatch,claude-opus-5-5
+9727286,01088,2021-04-21 17:50:00,DELAY IN DISPATCH OF CIRCULAR,延遲寄發通函,Announcements and Notices - [Delay in Dispatch of Circular or other Document / Continuing Connected Transaction / Discloseable Transaction],0.0,routine,,claude-opus-5-5
+9581740,02331,2021-01-12 21:16:00,"DISCLOSEABLE TRANSACTION
+SUBSCRIPTIONS OF WEALTH MANAGEMENT PRODUCTS","須予披露交易
+理財產品認購事項",Announcements and Notices - [Discloseable Transaction],0.0,other,,claude-opus-5-5
+9820634,01299,2021-06-29 16:48:00,"Discloseable Transaction - Proposed Investment in China Post Life Insurance Co., Ltd.",須予披露的交易 - 擬對中郵人壽保險股份有限公司進行之投資,Announcements and Notices - [Discloseable Transaction],0.5,mna,strategic stake in China Post Life,claude-opus-5-5
+10958472,00001,2023-11-06 08:12:00,POTENTIAL ESTABLISHMENT OF A NEW COMPANY FOR WHOLESALE MOBILE AND WHOLESALE FIXED COMMUNICATIONS SERVICES IN ITALY - EXTENSION OF LONGSTOP DATE,就意大利批發流動及批發固網通訊服務潛在新公司之成立 - 延長最後截止日期,Announcements and Notices - [Discloseable Transaction / Other - Business Update],0.0,mna,longstop extension,claude-opus-5-5
+10483134,01398,2022-10-28 17:52:00,Announcement of the Resolutions of the Board of Directors,董事會決議公告,Announcements and Notices - [Dividend or Distribution / Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,dividend,,claude-opus-5-5
+10159968,02318,2022-03-17 21:44:00,(I) Proposed Distribution of Final Dividend and Closure of Register of Members; (II) Proposed Amendments to the Articles of Association and (III) Proposed Appointment of Non-Employee Representative Supervisors,(I)建議分派末期股息及暫停辦理股份過戶登記手續；(II)建議修訂公司章程及 (III) 建議委任非職工代表監事,Announcements and Notices - [Dividend or Distribution / Closure of Books or Change of Book Closure Period / Amendment of Constitutional Documents / Change in Supervisors],0.0,dividend,,claude-opus-5-5
+11420118,01398,2024-10-30 19:36:00,Announcement of the Resolutions of the Board of Directors,董事會決議公告,Announcements and Notices - [Dividend or Distribution / Change in Directors or of Important Executive Functions or Responsibilities / Change of Audit Committee Member / Change of Remuneration Committee Member / Overseas Regulatory Announcement - Board/Supervisory Board Resolutions / Other - Corporate Governance Related Matters],0.0,dividend,,claude-opus-5-5
+12062313,00291,2026-03-23 12:01:00,Dividend Announcement Form,股息公告表格,Announcements and Notices - [Dividend or Distribution (Announcement Form)],0.0,dividend,,claude-opus-5-5
+10843134,00002,2023-08-07 12:13:00,Declaration of Second Interim Dividend for the year ending 31 December 2023,宣布派發截至2023年12月31日止年度之第二期中期股息,Announcements and Notices - [Dividend or Distribution (Announcement Form)],0.0,dividend,,claude-opus-5-5
+11364576,02318,2024-09-12 06:12:00,(Updated) Interim Dividend for the Six Months Ended 30 June 2024,（更新）截至2024年6月30日止六個月中期股息,Announcements and Notices - [Dividend or Distribution (Announcement Form)],0.0,dividend,,claude-opus-5-5
+12354339,00017,2026-09-30 21:12:00,ANNUAL RESULTS ANNOUNCEMENT 2025/2026,2025/2026全年業績公告,Announcements and Notices - [Final Results / Closure of Books or Change of Book Closure Period],-0.5,earnings_negative,PDF: HK$26.8bn loss on impairments; likely pre-flagged,claude-opus-5-5
+11545061,00002,2025-02-24 12:01:00,"Announcement of Annual Results from 1 January 2024 to 31 December 2024, Dividend Declaration and Closure of Books",宣布2024年1月1日至2024年12月31日止全年業績、宣派股息及暫停辦理股份登記手續,Announcements and Notices - [Final Results / Dividend or Distribution / Closure of Books or Change of Book Closure Period],0.5,earnings_positive,"PDF: operating earnings +8.1%, total earnings up sharply",claude-opus-5-5
+10181642,01398,2022-03-30 16:39:00,2021 Annual Results Announcement,2021年度業績公告,Announcements and Notices - [Final Results / Dividend or Distribution / Closure of Books or Change of Book Closure Period],0.0,routine,PDF first page has no direction,claude-opus-5-5
+9653983,09888,2021-03-12 06:06:00,GLOBAL OFFERING,全球發售,Announcements and Notices - [Formal Notice],0.0,other,IPO formal notice,claude-opus-5-5
+9597239,01024,2021-01-26 06:04:00,GLOBAL OFFERING,全球發售,Announcements and Notices - [Formal Notice],0.0,other,IPO formal notice,claude-opus-5-5
+10171341,09999,2022-03-24 20:54:00,"ANNUAL RESULTS OF CLOUD VILLAGE INC. FOR THE YEAR ENDED DECEMBER 31, 2021",CLOUD VILLAGE INC. 2021年12月31日止年度業績,Announcements and Notices - [Inside Information],0.0,routine,subsidiary results pointer,claude-opus-5-5
+12123589,01928,2026-04-27 07:31:00,"Inside Information - Results of our Controlling Shareholder, Las Vegas Sands Corp., Form 10-Q Quarterly Report for the Fiscal First Quarter Ended March 31, 2026",內幕消息 - 本公司控股股東LAS VEGAS SANDS CORP.截至二零二六年三月三十一日止第一個財政季度業績10-Q表季度報告,Announcements and Notices - [Inside Information],0.0,routine,parent results pointer,claude-opus-5-5
+10110692,01928,2022-02-07 06:09:00,"Inside Information - Results of Our Controlling Shareholder, Las Vegas Sands Corp., Form 10-K Annual Report for the Full Year Ended December 31, 2021",內幕消息 - 本公司控股股東LAS VEGAS SANDS CORP. 截至二零二一年十二月三十一日止全年業績10-K表年度報告,Announcements and Notices - [Inside Information],0.0,routine,parent results pointer,claude-opus-5-5
+11336273,00857,2024-08-26 19:08:00,"RESULTS ANNOUNCEMENT FOR THE SIX MONTHS ENDED JUNE 30, 2024 (SUMMARY OF THE 2024 INTERIM REPORT)",二零二四年中期業績公告（半年度報告摘要）,Announcements and Notices - [Interim Results / Dividend or Distribution / Closure of Books or Change of Book Closure Period],0.0,routine,PDF first page has no direction,claude-opus-5-5
+10407104,03988,2022-08-30 19:15:00,Announcement-Resolutions of the Board of Directors,公告-董事會決議,Announcements and Notices - [Interim Results / Other - Business Update / Other - Corporate Governance Related Matters],0.0,routine,,claude-opus-5-5
+11346182,01088,2024-08-30 21:00:00,ANNOUNCEMENT OF INTERIM RESULTS FOR THE SIX MONTHS ENDED 30 JUNE 2024,截至2024年6月30日止六個月期間中期業績公告,Announcements and Notices - [Interim Results],-0.5,earnings_negative,PDF: H1 profit -11.1%,claude-opus-5-5
+11452088,02020,2024-11-27 07:52:00,"(1) PROPOSED REPURCHASE OF EUR1,000,000,000 ZERO COUPON GUARANTEED CONVERTIBLE BONDS DUE 2025; AND (2) PROPOSED ISSUANCE OF EUR1,500,000,000 ZERO COUPON GUARANTEED CONVERTIBLE BONDS DUE 2029 UNDER GENERAL MANDATE","(1)建議購回於二零二五年到期1,000,000,000歐元零息有擔保可換股債券；及(2)建議根據一般授權發行於二零二九年到期1,500,000,000歐元零息有擔保可換股債券",Announcements and Notices - [Issue of Convertible Securities / Issue of Shares under a General Mandate],-0.5,financing,new EUR1.5bn convertible,claude-opus-5-5
+11357032,00005,2024-09-05 08:00:00,ISSUANCE OF PERPETUAL SUBORDINATED CONTINGENT CONVERTIBLE SECURITIES,發行永久後償或有可轉換證券,Announcements and Notices - [Issue of Convertible Securities / Placing / Issue of Shares under a Specific Mandate],0.0,financing,bank AT1 capital,claude-opus-5-5
+11700239,02318,2025-06-04 07:06:00,"PROPOSED ISSUE OF HK$11,765,000,000 ZERO COUPON
+CONVERTIBLE BONDS DUE
+2030 UNDER GENERAL MANDATE","擬根據一般性授權發行11,765,000,000港元於2030年到期的零息可轉換債券",Announcements and Notices - [Issue of Convertible Securities / Issue of Shares under a General Mandate],-0.5,financing,HK$11.8bn convertible,claude-opus-5-5
+11769762,00939,2025-07-28 16:56:00,Announcement on the Completion of Issuance of the Domestic Tier-2 Capital Bonds (Second Tranche) (Bond Connect) in 2025,關於境內2025年二級資本債券（第二期）（債券通）發行完畢的公告,Announcements and Notices - [Issue of Debt Securities],0.0,financing,,claude-opus-5-5
+10649244,00939,2023-03-28 18:38:00,Announcement on the Completion of Issuance of the Domestic Tier-2 Capital Bonds (First Tranche) in 2023,關於境內2023年二級資本債券（第一期）發行完畢的公告,Announcements and Notices - [Issue of Debt Securities],0.0,financing,,claude-opus-5-5
+11285024,01398,2024-07-12 18:32:00,Announcement on the Completion of the Issuance of 2024 Undated Additional Tier 1 Capital Bonds (Series 1),關於2024年無固定期限資本債券（第一期）發行完畢的公告,Announcements and Notices - [Issue of Debt Securities],0.0,financing,,claude-opus-5-5
+9851264,00700,2021-07-14 21:31:00,ISSUE OF NEW SHARES PURSUANT TO SHARE AWARD SCHEMES,根據股份獎勵計劃發行新股份,Announcements and Notices - [Issue of Shares under a General Mandate],0.0,routine,,claude-opus-5-5
+12295380,09988,2026-08-24 06:04:00,"PRICING OF HK$80 BILLION
+PLACING OF NEW SHARES
+UNDER GENERAL MANDATE",根據一般授權 配售800億港元新股份之定價,Announcements and Notices - [Issue of Shares under a General Mandate],-0.5,placing,HK$80bn placing of new shares,claude-opus-5-5
+10391365,00700,2022-08-18 19:06:00,ISSUE OF NEW SHARES PURSUANT TO SHARE AWARD SCHEMES,根據股份獎勵計劃發行新股份,Announcements and Notices - [Issue of Shares under a General Mandate],0.0,routine,,claude-opus-5-5
+11692764,00939,2025-05-30 17:21:00,Announcement on the Application for Issuance of A Shares to Specific Target Reviewed and Approved by the Shanghai Stock Exchange,關於向特定對象發行A股股票申請獲得上海證券交易所審核通過的公告,Announcements and Notices - [Issue of Shares under a Specific Mandate],0.0,placing,regulatory approval of known issue,claude-opus-5-5
+9850042,03690,2021-07-13 22:03:00,COMPLETION OF CONNECTED TRANSACTION INVOLVING SUBSCRIPTION OF NEW SHARES UNDER SPECIFIC MANDATE,完成涉及根據特別授權認購新股份的關連交易,Announcements and Notices - [Issue of Shares under a Specific Mandate / Connected Transaction],0.0,placing,completion,claude-opus-5-5
+11596412,00939,2025-03-30 18:44:00,Proposed Issuance of A Shares to Specific Target and Related Matters,建議向特定對象發行A股股票及相關事宜,Announcements and Notices - [Issue of Shares under a Specific Mandate],-0.5,placing,"A-share issue to specific target, dilutive",claude-opus-5-5
+10499147,01093,2022-11-08 18:19:00,LIST OF DIRECTORS AND THEIR ROLE AND FUNCTION,董事名單與其角色和職能,Announcements and Notices - [List of Directors and their Role and Function],0.0,routine,,claude-opus-5-5
+11937023,00012,2025-12-01 18:04:00,List of Directors and their Roles and Functions,董事名單與其角色和職能,Announcements and Notices - [List of Directors and their Role and Function],0.0,routine,,claude-opus-5-5
+10660301,00002,2023-03-31 16:33:00,List of Directors and their Roles and Functions,董事會名單、角色和職能,Announcements and Notices - [List of Directors and their Role and Function],0.0,routine,,claude-opus-5-5
+11330302,02020,2024-08-20 19:25:00,VOLUNTARY ANNOUNCEMENT - AMER SPORTS PUBLISHES SECOND QUARTER 2024 FINANCIAL RESULTS,自願性公告 - AMER SPORTS刊發二零二四年第二季度財務業績,(Cancelled since Headlines Superseded and Replaced) Announcements and Notices - [Listing on Overseas Exchange or Securities Market / Other - Miscellaneous],0.0,routine,PDF: pointer to Amer Sports 6-K,claude-opus-5-5
+11045476,02020,2024-01-22 20:30:00,VOLUNTARY ANNOUNCEMENT - UPDATE ON OVERSEAS LISTING APPLICATION BY A JOINT VENTURE AND POSSIBLE CORNERSTONE INVESTMENT,自願性公告 - 合營公司海外上市申請的最新情況及潛在基石投資事項,Announcements and Notices - [Listing on Overseas Exchange or Securities Market / Other - Miscellaneous],0.0,other,,claude-opus-5-5
+11030081,02020,2024-01-05 07:40:00,VOLUNTARY ANNOUNCEMENT - SUBMISSION OF OVERSEAS LISTING APPLICATION BY A JOINT VENTURE,自願性公告 - 合營公司提交海外上市申請,Announcements and Notices - [Listing on Overseas Exchange or Securities Market],0.5,other,JV overseas listing filing,claude-opus-5-5
+10401071,00175,2022-08-26 16:30:00,"ANNOUNCEMENT PURSUANT TO RULE 13.18
+OF THE LISTING RULES",根據上市規則第13.18條作出之公佈,Announcements and Notices - [Loan Agreement with Specific Performance Covenant],0.0,financing,,claude-opus-5-5
+10477956,00291,2022-10-25 17:24:00,MAJOR TRANSACTION IN RELATION TO THE PROPOSED ACQUISITION OF 55.19% EQUITY INTEREST IN A TARGET COMPANY,有關建議收購目標公司55.19%股權的主要交易,Announcements and Notices - [Major Transaction],0.0,mna,"major acquisition, direction unclear",claude-opus-5-5
+10773717,00001,2023-06-14 18:01:00,MAJOR TRANSACTIONS - ESTABLISHMENT OF A JOINT VENTURE IN MOBILE TELECOMMUNICATIONS OPERATIONS IN THE UK,主要交易 - 就英國流動電訊業務成立合資企業,Announcements and Notices - [Major Transaction],0.5,mna,UK JV with Vodafone,claude-opus-5-5
+10973384,00017,2023-11-20 16:36:00,(1) COMPLETION OF MAJOR AND CONNECTED TRANSACTION - DISPOSAL OF SHARES IN NWS HOLDINGS LIMITED; (2) REVISED ANNUAL CAPS FOR THE CTFE TRANSACTIONS UNDER THE CTFE MASTER SERVICES AGREEMENT; AND (3) PAYMENT OF THE SPECIAL DIVIDEND,(1) 完成主要及關連交易 — 出售新創建集團有限公司的股份；(2)周大福企業主服務協議項下周大福企業交易的經修訂年度上限；及 (3)派付特別股息,Announcements and Notices - [Major Transaction / Connected Transaction / Continuing Connected Transaction],0.5,dividend,special dividend with disposal completion,claude-opus-5-5
+12174177,01024,2026-05-28 16:40:00,SUPPLEMENTAL NOTICE OF THE ANNUAL GENERAL MEETING,股東週年大會補充通告,Announcements and Notices - [Material Information after Issue of Circular / Notice of AGM / Re-election or Appointment of Director subject to Shareholders' Approval / Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+10305651,03988,2022-06-16 18:18:00,Supplemental Notice of Annual General Meeting,股東週年大會補充通告,Announcements and Notices - [Material Information after Issue of Circular / Notice of AGM / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+10254166,01299,2022-05-10 18:50:00,Supplemental Information to Circular Relating to the 2022 Annual General Meeting,有關2022年股東週年大會通函的補充資料,Announcements and Notices - [Material Information after Issue of Circular],0.0,routine,,claude-opus-5-5
+9818141,00823,2021-06-28 16:31:00,Completion of Acquisition of PRC Property - Happy Valley Shopping Mall,完成收購中國物業 - 太陽新天地購物中心,Announcements and Notices - [Matters relating to Collective Investment Schemes],0.0,mna,completion,claude-opus-5-5
+10811567,00823,2023-07-10 19:00:00,Grant of Restricted Unit Awards and Conditional Cash Awards under the 2017 Long-term Incentive Scheme,根據2017年長期獎勵計劃授出受限制基金單位獎勵及有條件現金獎勵,Announcements and Notices - [Matters relating to Collective Investment Schemes],0.0,routine,,claude-opus-5-5
+11279791,00823,2024-07-08 18:04:00,Grant of Restricted Unit Awards and Conditional Cash Awards under the 2017 Long-term Incentive Scheme,根據2017年長期獎勵計劃授出受限制基金單位獎勵及有條件現金獎勵,Announcements and Notices - [Matters relating to Collective Investment Schemes],0.0,routine,,claude-opus-5-5
+10338924,00175,2022-07-11 16:34:00,EXERCISE OF CALL OPTION,行使認購期權,Announcements and Notices - [Matters relating to Options],0.0,other,,claude-opus-5-5
+11629342,02318,2025-04-16 17:28:00,Notice of Annual General Meeting,股東週年大會通告,Announcements and Notices - [Notice of AGM / Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+11623611,00941,2025-04-11 17:22:00,NOTICE OF THE ANNUAL GENERAL MEETING,股東週年大會通告,Announcements and Notices - [Notice of AGM],0.0,routine,,claude-opus-5-5
+9794504,00939,2021-06-04 17:35:00,Indicative Announcement regarding the Convening of the 2020 Annual General Meeting,關於召開2020年度股東大會的提示性公告,Announcements and Notices - [Notice of AGM / Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+9774427,00941,2021-05-24 12:07:00,NOTICE OF THE EXTRAORDINARY GENERAL MEETING,股東特別大會通告,Announcements and Notices - [Notice of EGM/SGM / Amendment of Constitutional Documents / Listing on Overseas Exchange or Securities Market / Issue of Shares under a Specific Mandate / Other - Corporate Governance Related Matters / Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+10983127,02628,2023-11-29 16:30:00,Supplemental Notice of the First Extraordinary General Meeting 2023,2023年第一次臨時股東大會補充通告,Announcements and Notices - [Notice of EGM/SGM],0.0,routine,,claude-opus-5-5
+10028388,02628,2021-11-29 17:11:00,Supplemental Notice of the First Extraordinary General Meeting 2021,2021年第一次臨時股東大會補充通告,Announcements and Notices - [Notice of EGM/SGM],0.0,routine,,claude-opus-5-5
+10508894,01093,2022-11-16 16:55:00,VOLUNTARY ANNOUNCEMENT - ACCEPTANCE OF NEW INDICATION APPLICATION FOR MARKETING APPROVAL OF MINGFULE (RECOMBINANT HUMAN TNK TISSUE-TYPE PLASMINOGEN ACTIVATOR FOR INJECTION),自願公告 - 銘復樂 (注射用重組人TNK組織型纖溶酉每原激活劑) 新適應症上市申請獲得受理,Announcements and Notices - [Other - Business Update],0.0,contract,drug application accepted,claude-opus-5-5
+11494257,01211,2025-01-01 19:23:00,VOLUNTARY ANNOUNCEMENT PRODUCTION AND SALES VOLUME FOR DECEMBER 2024,自願公告2024年12月產銷快報,Announcements and Notices - [Other - Business Update],0.0,routine,,claude-opus-5-5
+11503746,01093,2025-01-07 17:33:00,VOLUNTARY ANNOUNCEMENT - SYS6045 (ANTIBODY-DRUG CONJUGATE) OBTAINS CLINICAL TRIAL APPROVAL,自願公告 - SYS6045（抗體藥物偶聯物）獲臨床試驗批准,Announcements and Notices - [Other - Business Update],0.0,contract,clinical trial approval,claude-opus-5-5
+9617670,03988,2021-02-07 18:22:00,Announcement-Resolutions of the Board of Directors,公告-董事會決議,Announcements and Notices - [Other - Corporate Governance Related Matters],0.0,routine,,claude-opus-5-5
+10570233,00005,2023-01-06 17:30:00,"Modifications to the Listing Rules of the Stock Exchange of Hong Kong Limited (the ""Exchange"") the subject of a conditional Waiver made by the Exchange on 19 December 2005 to enable HSBC Holdings plc (""HSBC"") to hold treasury shares",此乃香港聯合交易所有限公司（「聯交所」）於2005年12月19日授予匯豐控股有限公司（「匯豐」）的有條件豁免下對聯交所證券上市規則作出的修訂，使匯豐可持有庫存股份,Announcements and Notices - [Other - Corporate Governance Related Matters],0.0,routine,,claude-opus-5-5
+11162561,02628,2024-04-17 16:31:00,Voluntary Announcement - Convening of 2024 First Quarter Results Briefing,自願性公告 - 召開2024年第一季度業績發布會,Announcements and Notices - [Other - Corporate Governance Related Matters / Other - Miscellaneous],0.0,routine,,claude-opus-5-5
+11008227,00388,2023-12-17 18:11:00,Update on legal proceedings involving subsidiaries,有關涉及附屬公司的法律程序之最新進展,Announcements and Notices - [Other - Litigation],0.0,litigation,PDF: LME judicial review update,claude-opus-5-5
+10506880,02382,2022-11-15 16:57:00,VOLUNTARY ANNOUNCEMENT - LITIGATION PROCEEDINGS COMMENCED BY A SUBSIDIARY,自願公告–附屬公司展開的訴訟程序,Announcements and Notices - [Other - Litigation],0.0,litigation,PDF: company is plaintiff,claude-opus-5-5
+10242433,01928,2022-05-03 07:43:00,"Voluntary Announcement - Judgement in respect of the claim by Asian American Entertainment Corporation, Limited","自願性公告 - 有關Asian American Entertainment Corporation, Limited申索的判決",Announcements and Notices - [Other - Litigation],0.5,litigation,PDF: judgment in the group's favour,claude-opus-5-5
+9601326,00941,2021-01-28 19:45:00,OFAC General License No. 1A,OFAC第1A號一般許可,Announcements and Notices - [Other - Miscellaneous],0.0,other,PDF: OFAC licence update,claude-opus-5-5
+10030510,00883,2021-11-30 17:35:00,ANNOUNCEMENT OF INTENTION TO DEREGISTER AND TERMINATE REPORTING OBLIGATIONS UNDER THE U.S. SECURITIES EXCHANGE ACT OF 1934,擬撤銷註冊和終止美國1934年證券交易法項下報告義務之公告,Announcements and Notices - [Other - Miscellaneous],0.0,other,,claude-opus-5-5
+11412363,01928,2024-10-23 16:30:00,Voluntary Announcement - Entry into a Facility Agreement,自願公告 - 訂立融資協議,Announcements and Notices - [Other - Miscellaneous],0.0,financing,PDF: facility amendment,claude-opus-5-5
+9613782,01211,2021-02-03 19:45:00,VOLUNTARY ANNOUNCEMENT PRODUCTION AND SALES VOLUME FOR JANUARY 2021,自願公告2021年1月產銷快報,Announcements and Notices - [Other - Trading Update],0.0,routine,,claude-opus-5-5
+11030079,02020,2024-01-05 07:34:00,OPERATIONAL UPDATE FOR THE FOURTH QUARTER AND FULL YEAR OF 2023,二零二三年第四季度及全年之最新營運表現,Announcements and Notices - [Other - Trading Update],0.5,earnings_positive,PDF: ANTA brand Q4 high-teens growth,claude-opus-5-5
+10375534,00175,2022-08-08 16:30:00,UNAUDITED SALES VOLUME IN JULY 2022,未經審核之二零二二年七月銷量,Announcements and Notices - [Other - Trading Update],0.0,routine,,claude-opus-5-5
+10698338,03988,2023-04-21 19:02:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告-中國銀行股份有限公司董事會決議公告,Announcements and Notices - [Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11810800,00857,2025-08-26 22:11:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",中國石油天然氣股份有限公司第九屆監事會第十一次會議決議公告,Announcements and Notices - [Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11342527,02628,2024-08-29 19:22:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告 - 中國人壽保險股份有限公司第八屆監事會第二次會議決議公告,Announcements and Notices - [Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11590310,00883,2025-03-27 22:14:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告 2024年年度報告,Announcements and Notices - [Overseas Regulatory Announcement - Business Update],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11596169,00857,2025-03-30 18:17:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",中國石油天然氣股份有限公司 2025 年度對外擔保安排的公告,Announcements and Notices - [Overseas Regulatory Announcement - Business Update],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+12049501,00005,2026-03-12 17:00:00,GROUP REPORTING CHANGES,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Business Update],0.0,routine,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11586564,02628,2025-03-26 20:25:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告 - 中國人壽保險股份有限公司董事會審計委員會對會計師事務所2024年度履行監督職責情況報告,Announcements and Notices - [Overseas Regulatory Announcement - Corporate Governance Related Matters],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+12070441,02318,2026-03-26 22:02:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告 - 中國平安保險（集團）股份有限公司2025年度內部控制評價報告,Announcements and Notices - [Overseas Regulatory Announcement - Corporate Governance Related Matters],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11110962,01088,2024-03-22 21:40:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Corporate Governance Related Matters / Overseas Regulatory Announcement - Other],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10910850,00005,2023-09-27 07:31:00,ISSUANCE OF SUBORDINATED UNSECURED NOTES,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Issue of Securities and Related Matters],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11523875,00005,2025-02-03 07:31:00,NOTICE OF REDEMPTION,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Issue of Securities and Related Matters],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+10089748,00883,2022-01-13 17:27:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section","海外監管公告
+預先披露更新A股招股說明書",Announcements and Notices - [Overseas Regulatory Announcement - Issue of Securities and Related Matters],0.0,financing,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10803720,00005,2023-07-04 07:00:00,Transaction in own shares,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,buyback,routine buy-back execution; ZH title is placeholder; labelled from EN,claude-opus-5-5
+10071896,00005,2022-01-03 07:13:00,Transaction in own shares,本身股份之交易,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,buyback,routine buy-back execution,claude-opus-5-5
+10527636,01211,2022-12-01 17:39:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10127011,00005,2022-02-22 12:01:00,ANNUAL RESULTS 2021 AUDIO WEBCAST AND CONFERENCE CALL,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Trading Update],0.0,routine,ZH title is placeholder; labelled from EN,claude-opus-5-5
+10159991,02318,2022-03-17 21:51:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Trading Update],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+12157316,00001,2026-05-13 16:43:00,OVERSEAS REGULATORY ANNOUNCEMENT AND INSIDE INFORMATION ANNOUNCEMENT ON THE QUARTERLY TRADING UPDATE FOR CK HUTCHISON GROUP TELECOM HOLDINGS LIMITED,有關CK HUTCHISON GROUP TELECOM HOLDINGS LIMITED季度最新交易資訊之海外監管公告及內幕消息公告,Announcements and Notices - [Overseas Regulatory Announcement - Trading Update / Inside Information],0.0,routine,,claude-opus-5-5
+9591526,01211,2021-01-21 07:30:00,PLACING OF NEW H SHARES UNDER GENERAL MANDATE,根據一般授權配售新H股,Announcements and Notices - [Placing / Issue of Shares under a General Mandate],-0.5,placing,H-share placing,claude-opus-5-5
+9852418,02319,2021-07-15 18:00:00,FURTHER DELAY IN DESPATCH OF CIRCULAR,進一步延遲寄發通函,Announcements and Notices - [Placing / Issue of Convertible Securities / Issue of Shares under a Specific Mandate / Connected Transaction / Delay in Dispatch of Circular or other Document / Other - Miscellaneous],0.0,routine,,claude-opus-5-5
+9991955,01211,2021-11-01 06:42:00,PLACING OF NEW H SHARES UNDER GENERAL MANDATE,根據一般授權配售新H股,Announcements and Notices - [Placing],-0.5,placing,H-share placing,claude-opus-5-5
+11853326,01398,2025-09-24 18:38:00,Notice on Completion of Redemption,完成贖回通告,Announcements and Notices - [Privatisation/Withdrawal or Cancellation of Listing of Securities],0.0,financing,preference share redemption,claude-opus-5-5
+11520547,03988,2025-01-24 17:24:00,Redemption Notice,贖回通告,Announcements and Notices - [Privatisation/Withdrawal or Cancellation of Listing of Securities],0.0,financing,,claude-opus-5-5
+10049835,01398,2021-12-13 17:43:00,Notice on Completion of Redemption,完成贖回通告,Announcements and Notices - [Privatisation/Withdrawal or Cancellation of Listing of Securities],0.0,financing,,claude-opus-5-5
+10818819,02382,2023-07-19 17:04:00,PROFIT WARNING,盈利警告,Announcements and Notices - [Profit Warning / Inside Information],-1.0,earnings_negative,profit warning,claude-opus-5-5
+10600456,02382,2023-02-12 18:05:00,PROFIT WARNING,盈利警告,Announcements and Notices - [Profit Warning / Inside Information],-1.0,earnings_negative,profit warning,claude-opus-5-5
+11052515,01211,2024-01-29 20:44:00,ESTIMATED RESULTS FOR THE YEAR ENDED 31 DECEMBER 2023,2023年度業績預告,Announcements and Notices - [Profit Warning / Inside Information],0.5,earnings_positive,"PDF: 2023 profit +74-86%, broadly expected",claude-opus-5-5
+12030468,09888,2026-02-26 17:00:00,ANNOUNCEMENT OF THE FOURTH QUARTER AND FULL YEAR 2025 RESULTS,2025年第四季度及全年業績公告,Announcements and Notices - [Quarterly Results / Final Results],0.0,routine,PDF first page has no direction,claude-opus-5-5
+10239021,00857,2022-04-29 16:32:00,First Quarterly Report of 2022,二零二二年第一季度報告,Announcements and Notices - [Quarterly Results],0.0,routine,,claude-opus-5-5
+11895469,00857,2025-10-30 19:17:00,THIRD QUARTERLY REPORT OF 2025,二零二五年第三季度報告,Announcements and Notices - [Quarterly Results / Overseas Regulatory Announcement - Trading Update],0.0,routine,,claude-opus-5-5
+11853324,03988,2025-09-24 18:37:00,Announcement-Resolutions of the Board of Directors,公告-董事會決議,Announcements and Notices - [Re-election or Appointment of Director subject to Shareholders' Approval / Other - Corporate Governance Related Matters],0.0,routine,,claude-opus-5-5
+10740249,00006,2023-05-17 17:49:00,Poll Results of 2023 Annual General Meeting,2023年股東週年大會投票表決結果,Announcements and Notices - [Results of AGM],0.0,routine,,claude-opus-5-5
+10768679,00857,2023-06-08 22:34:00,"RESOLUTIONS PASSED AT THE ANNUAL GENERAL MEETING FOR THE YEAR 2022, THE 2023 FIRST A SHAREHOLDERS' CLASS MEETING AND THE 2023 FIRST H SHAREHOLDERS' CLASS MEETING, PAYMENT OF THE FINAL DIVIDENDS, APPOINTMENT OF DIRECTORS AND SUPERVISORS, APPOINTMENT OF CHAIRMAN OF THE BOARD AND CHAIRMAN OF THE SUPERVISORY COMMITTEE AND CHANGE OF MEMBERS OF THE BOARD COMMITTEES",2022年年度股東大會、2023年第一次A股類別股東大會及2023年第一次H股類別股東大會所通過的議案；派發末期股息；委任董事及監事；委任董事長及監事會主席及變更董事會委員會成員,Announcements and Notices - [Results of AGM / Dividend or Distribution / Change in Directors or of Important Executive Functions or Responsibilities / Change in Supervisors / Change of Audit Committee Member / Change of Remuneration Committee Member],0.0,routine,,claude-opus-5-5
+10313607,01398,2022-06-23 21:12:00,Annual General Meeting for the Year 2021 Held on 23 June 2022 Poll Results,二零二二年六月二十三日舉行的2021年度股東年會投票表決結果,Announcements and Notices - [Results of AGM / Change in Supervisors / Re-election or Appointment of Director subject to Shareholders' Approval / Dividend or Distribution],0.0,routine,,claude-opus-5-5
+12125073,00001,2026-04-27 17:32:00,EXTRAORDINARY GENERAL MEETING HELD ON 27 APRIL 2026 - POLL RESULTS; CONNECTED TRANSACTION AND DISCLOSEABLE TRANSACTION - DISPOSAL OF UK POWER NETWORKS,2026年4月27日舉行之股東特別大會 - 投票表決結果; 關連交易及須予披露的交易 - 出售UK POWER NETWORKS,Announcements and Notices - [Results of EGM/SGM / Connected Transaction / Discloseable Transaction],0.0,mna,poll approving known disposal,claude-opus-5-5
+9906160,00175,2021-08-24 19:43:00,"POLL RESULTS OF THE EXTRAORDINARY GENERAL MEETING
+HELD ON 24 AUGUST 2021 AT 4:00 P.M.","於二零二一年八月二十四日下午四時正舉行之
+股東特別大會之投票表決結果",Announcements and Notices - [Results of EGM/SGM],0.0,routine,,claude-opus-5-5
+11627902,01211,2025-04-15 19:43:00,POLL RESULTS OF EXTRAORDINARY GENERAL MEETING,臨時股東會投票表決結果,Announcements and Notices - [Results of EGM/SGM],0.0,routine,,claude-opus-5-5
+11798093,01093,2025-08-15 20:44:00,"UNAUDITED FINANCIAL INFORMATION OF CSPC INNOVATION PHARMACEUTICAL CO., LTD. FOR THE SIX MONTHS ENDED 30 JUNE 2025",石藥創新製藥股份有限公司截至2025年6月30日止六個月之未經審核財務資料,Announcements and Notices - [Results of a Subsidiary],0.0,routine,,claude-opus-5-5
+12065349,00288,2026-03-24 21:23:00,"AUDITED FINANCIAL RESULTS
+FOR THE YEAR ENDED 31 DECEMBER 2025 OF
+HENAN SHUANGHUI INVESTMENT & DEVELOPMENT CO., LTD.","河南雙匯投資發展股份有限公司
+截至二零二五年十二月三十一日止年度的
+經審核財務業績",Announcements and Notices - [Results of a Subsidiary],0.0,routine,,claude-opus-5-5
+11653809,00288,2025-04-29 21:46:00,"UNAUDITED FINANCIAL RESULTS
+FOR THE THREE MONTHS ENDED 30 MARCH 2025 OF
+SMITHFIELD FOODS, INC.","史密斯菲爾德食品有限公司
+截至二零二五年三月三十日止三個月的
+未經審核財務業績",Announcements and Notices - [Results of a Subsidiary],0.0,routine,,claude-opus-5-5
+11457502,00017,2024-12-02 09:00:00,EXCHANGE NOTICE - RESUMPTION OF TRADING,交易所通告 - 復牌,Announcements and Notices - [Resumption],0.0,trading_halt,resumption; PDF not readable,claude-opus-5-5
+10600542,00823,2023-02-13 08:47:00,EXCHANGE NOTICE - RESUMPTION OF TRADING,交易所通告 - 復牌,Announcements and Notices - [Resumption],0.0,trading_halt,resumption; PDF not readable,claude-opus-5-5
+10004228,00823,2021-11-08 08:37:00,EXCHANGE NOTICE - RESUMPTION OF TRADING,交易所通告 - 復牌,Announcements and Notices - [Resumption],0.0,trading_halt,resumption; PDF not readable,claude-opus-5-5
+10463298,00027,2022-10-07 22:26:00,Grant of Share Options and Share Awards and Grant of Share Options in replacement of Previously Granted Share Options,授出認股權及股份獎勵及授出認股權以取代先前授出之認股權,Announcements and Notices - [Share Option Scheme / Other - Miscellaneous],0.0,routine,,claude-opus-5-5
+10214602,01024,2022-04-14 22:50:00,GRANT OF OPTIONS,授出購股權,Announcements and Notices - [Share Option Scheme],0.0,routine,,claude-opus-5-5
+10153520,00700,2022-03-14 19:21:00,ADJUSTMENTS TO THE EXERCISE PRICE OF SHARE OPTIONS AND ADJUSTMENTS TO THE NUMBER OF SHARES SUBJECT TO SHARE AWARDS,調整購股權之行使價及調整股份獎勵所涉及之股份數目,Announcements and Notices - [Share Option Scheme / Matters relating to Options / Other - Miscellaneous],0.0,routine,,claude-opus-5-5
+10740213,00005,2023-05-17 17:30:00,GRANT OF CONDITIONAL AWARDS,授出有條件獎勵,Announcements and Notices - [Share Scheme],0.0,routine,,claude-opus-5-5
+12151367,00005,2026-05-07 17:30:00,GRANT OF CONDITIONAL AWARDS,授出有條件獎勵,Announcements and Notices - [Share Scheme],0.0,routine,,claude-opus-5-5
+11612026,01299,2025-04-02 18:00:00,Grant of Restricted Stock Subscription Units,授出受限制股份認購單位,Announcements and Notices - [Share Scheme],0.0,routine,,claude-opus-5-5
+9991623,00175,2021-10-29 21:31:00,"SHARE TRANSACTION AND CONNECTED TRANSACTION IN RELATION
+TO THE ACQUISITION INVOLVING ISSUE OF CONSIDERATION SHARES
+UNDER SPECIFIC MANDATE","有關涉及根據特別授權發行代價股份之
+收購事項之股份交易及關連交易",Announcements and Notices - [Share Transaction / Connected Transaction / Consideration Issue / Issue of Shares under a Specific Mandate],0.0,mna,,claude-opus-5-5
+10023374,00175,2021-11-24 17:57:00,DELAY IN DESPATCH OF CIRCULAR,延遲寄發通函,Announcements and Notices - [Share Transaction / Connected Transaction / Consideration Issue / Issue of Shares under a Specific Mandate / Delay in Dispatch of Circular or other Document],0.0,mna,,claude-opus-5-5
+9907436,01810,2021-08-25 18:15:00,SHARE TRANSACTION ACQUISITION OF ENTIRE SHAREHOLDING IN DEEPMOTION TECH LIMITED INVOLVING THE ISSUE OF CONSIDERATION SHARES UNDER GENERAL MANDATE,有關收購涉及根據一般授權發行代價股份的DEEPMOTION TECH LIMITED全部股權的股份交易,Announcements and Notices - [Share Transaction / Consideration Issue / Issue of Shares under a General Mandate],0.0,mna,,claude-opus-5-5
+11544737,00288,2025-02-21 21:21:00,"UPDATE IN RELATION TO THE PROPOSED SPIN-OFF -
+PARTIAL EXERCISE OF THE OVER-ALLOTMENT OPTION",有關建議分拆的最新資料 - 部分行使超額配股權,Announcements and Notices - [Spin-off],0.0,mna,,claude-opus-5-5
+11207118,00175,2024-05-10 17:00:00,"(1) UPDATE IN RELATION TO THE PROPOSED SPIN-OFF AND
+SEPARATE LISTING OF ZEEKR INTELLIGENT TECHNOLOGY
+HOLDING LIMITED ON THE NEW YORK STOCK EXCHANGE;
+(2) PRICING OF THE AMERICAN DEPOSITARY SHARES AND
+COMMENCEMENT OF TRADING OF
+THE AMERICAN DESPOSITARY SHARES; AND
+(3) RESIGNATION OF EXECUTIVE DIRECTOR","(1)有關建議分拆ZEEKR INTELLIGENT TECHNOLOGY HOLDING
+LIMITED及於紐約證券交易所獨立上市之最新進展；
+(2)美國存託股票之定價及美國存託股票開始買賣；及
+(3)執行董事辭任",Announcements and Notices - [Spin-off / Change in Directors or of Important Executive Functions or Responsibilities],0.0,mna,"Zeekr IPO pricing, known",claude-opus-5-5
+11517215,00288,2025-01-21 21:30:00,"(1) UPDATE IN RELATION TO THE PROPOSED SPIN-OFF AND
+SEPARATE LISTING OF SMITHFIELD FOODS, INC.;
+(2) PRELIMINARY RESULTS OF THE SMITHFIELD GROUP FOR
+THE THREE MONTHS ENDED DECEMBER 29, 2024; AND
+(3) NOTICE OF BOARD MEETING","(1) 有關史密斯菲爾德食品有限公司的建議分拆及
+獨立上市的最新資料；
+(2) 史密斯菲爾德集團於截至二零二四年十二月二十九日
+止三個月的初步業績；及
+(3) 董事會會議通告",Announcements and Notices - [Spin-off / Results of a Subsidiary / Date of Board Meeting],0.0,mna,,claude-opus-5-5
+12313533,01928,2026-09-01 17:48:00,Adoption of the Alternative Threshold for the Minimum Prescribed Public Float,選用最低指定公眾持股量的替代門檻,Announcements and Notices - [Sufficiency of Public Float],0.0,routine,,claude-opus-5-5
+11491308,00175,2024-12-30 18:51:00,TERMS OF REFERENCE OF SUSTAINABILITY COMMITTEE,可持續發展委員會職權範圍,Announcements and Notices - [Terms of Reference of Other Board Committees],0.0,routine,,claude-opus-5-5
+10847046,00066,2023-08-10 16:58:00,Finance & Investment Committee - Terms of Reference,財務及投資委員會 - 職權範圍,Announcements and Notices - [Terms of Reference of Other Board Committees],0.0,routine,,claude-opus-5-5
+11470213,00005,2024-12-09 07:34:00,Terms of Reference of Group Risk Committee,集團風險管理委員會的職權範圍,Announcements and Notices - [Terms of Reference of Other Board Committees],0.0,routine,,claude-opus-5-5
+10860947,02382,2023-08-22 18:33:00,Terms of reference of the audit committee of the Board of Directors,董事會審核委員會職權範圍,Announcements and Notices - [Terms of Reference of the Audit Committee],0.0,routine,,claude-opus-5-5
+10873753,00857,2023-08-30 20:16:00,RULES OF PROCEDURES OF THE AUDIT COMMITTEE,董事會審計委員會議事規則,Announcements and Notices - [Terms of Reference of the Audit Committee],0.0,routine,,claude-opus-5-5
+11710265,02331,2025-06-11 17:38:00,Terms of Reference of Audit Committee,審核委員會職權範圍,Announcements and Notices - [Terms of Reference of the Audit Committee],0.0,routine,,claude-opus-5-5
+9766944,00669,2021-05-14 17:41:00,Terms of Reference for Nomination Committee,提名委員會職權範圍,Announcements and Notices - [Terms of Reference of the Nomination Committee],0.0,routine,,claude-opus-5-5
+10174669,01088,2022-03-27 18:32:00,China Shenhua Energy Company Limited Rules of Procedures of the Nomination Committee of the Board of Directors,中國神華能源股份有限公司董事會提名委員會議事規則,Announcements and Notices - [Terms of Reference of the Nomination Committee],0.0,routine,,claude-opus-5-5
+11606680,00001,2025-04-01 12:06:00,NOMINATION COMMITTEE - TERMS OF REFERENCE,提名委員會 - 職權範圍,Announcements and Notices - [Terms of Reference of the Nomination Committee],0.0,routine,,claude-opus-5-5
+9673285,02318,2021-03-25 22:35:00,Terms of Reference and Modus Operandi of Nomination and Remuneration Committee,提名薪酬委員會的職權範圍及運作模式,Announcements and Notices - [Terms of Reference of the Remuneration Committee],0.0,routine,,claude-opus-5-5
+10107359,00066,2022-01-31 13:37:00,Remuneration Committee - Terms of Reference,薪酬委員會 - 職權範圍,Announcements and Notices - [Terms of Reference of the Remuneration Committee],0.0,routine,,claude-opus-5-5
+10916936,00002,2023-09-29 16:37:00,Terms of Reference of Human Resources & Remuneration Committee,人力資源及薪酬福利委員會職權範圍,Announcements and Notices - [Terms of Reference of the Remuneration Committee],0.0,routine,,claude-opus-5-5
+10767642,01024,2023-06-08 16:32:00,LAUNCH OF A RMB COUNTER,推出人民幣櫃台,(Headlines Revised) Announcements and Notices - [Trading Arrangements (other than Change in Board Lot Size)],0.0,routine,,claude-opus-5-5
+10769275,00388,2023-06-09 16:30:00,Launch of RMB Counter for Trading of HKEX Shares,就香港交易所股份交易增設人民幣櫃台,Announcements and Notices - [Trading Arrangements (other than Change in Board Lot Size)],0.0,routine,,claude-opus-5-5
+10769344,02318,2023-06-09 16:37:00,ADDITION OF A RMB COUNTER,增設人民幣櫃台,(Headlines Revised) Announcements and Notices - [Trading Arrangements (other than Change in Board Lot Size)],0.0,routine,,claude-opus-5-5
+10782797,00017,2023-06-23 15:59:00,EXCHANGE NOTICE - TRADING HALT,交易所通告 - 短暫停牌,Announcements and Notices - [Trading Halt],-0.5,trading_halt,,claude-opus-5-5
+10608838,00669,2023-02-23 15:12:00,EXCHANGE NOTICE - TRADING HALT,交易所通告 - 短暫停牌,Announcements and Notices - [Trading Halt],-0.5,trading_halt,,claude-opus-5-5
+10599055,00823,2023-02-10 08:41:00,Trading Halt,短暫停牌,Announcements and Notices - [Trading Halt / Inside Information],-0.5,trading_halt,PDF: halt pending announcement,claude-opus-5-5
+11824968,00017,2025-09-01 22:27:00,CLARIFICATION ANNOUNCEMENT,澄清公告,Announcements and Notices - [Unusual Price/Turnover Movements - Standard or Super],-0.5,other,PDF: denies funding-injection rumour,claude-opus-5-5
+11095613,02331,2024-03-12 16:48:00,VOLUNTARY ANNOUNCEMENT UNUSUAL PRICE AND TRADING VOLUME MOVEMENTS,自願性公告 不尋常價格及成交量變動,Announcements and Notices - [Unusual Price/Turnover Movements - Standard or Super],0.0,other,PDF: no reason for price move,claude-opus-5-5
+9579734,00175,2021-01-11 08:20:00,"(1) UNUSUAL PRICE AND TRADING VOLUME MOVEMENTS
+AND
+(2) CLARIFICATION ANNOUNCEMENT","(1) 股價及成交量之不尋常波動
+及
+(2) 澄清公佈",Announcements and Notices - [Unusual Price/Turnover Movements - Standard or Super / Clarification of News or Reports - Standard or Super],0.0,other,PDF: clarifies parent's Baidu EV tie-up,claude-opus-5-5
+12301483,09888,2026-08-27 08:06:00,VOLUNTARY CONVERSION TO DUAL PRIMARY LISTING ON THE HONG KONG STOCK EXCHANGE,於香港聯交所自願轉換為雙重主要上市,Announcements and Notices - [Waiver in respect of Connected Transaction Requirements / Share Scheme / Other - Business Update / Other - Corporate Governance Related Matters / Other - Miscellaneous / Change in Company Secretary / Continuing Connected Transaction / Trading Arrangements (other than Change in Board Lot Size)],0.5,other,dual primary listing (Southbound eligibility),claude-opus-5-5
+12253085,09888,2026-07-22 21:32:00,(1) APPLICATION FOR CONVERSION TO DUAL PRIMARY LISTING; (2) PROPOSED GRANT OF ISSUANCE MANDATE AND SHARE REPURCHASE MANDATE; (3) PROPOSED ADOPTION OF THE 2026 SHARE INCENTIVE PLAN; AND (4) PROPOSED AMENDMENTS TO THE ARTICLES OF ASSOCIATION,( 1 ) 申請轉換為雙重主要上市；( 2 ) 建議授予發行授權及股份購回授權；( 3 ) 建議採納2026 年股權激勵計劃； 及 ( 4 ) 建議修訂組織章程細則,Announcements and Notices - [Waiver in respect of Connected Transaction Requirements / Share Scheme / Other - Business Update / Other - Corporate Governance Related Matters / Other - Miscellaneous / Amendment of Constitutional Documents / Change in Company Secretary],0.0,other,follow-up to conversion,claude-opus-5-5
+9667674,09888,2021-03-09 19:37:00,PHIP (1st submission),聆訊後資料集（第一次呈交）,Application Proofs and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or PHIPs or related materials],0.0,other,,claude-opus-5-5
+9616246,01024,2021-01-24 19:03:00,PHIP (1st revised proof),聆訊後資料集（第一次修訂版）,Application Proofs and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or PHIPs or related materials],0.0,other,,claude-opus-5-5
+9616244,01024,2021-01-15 22:56:00,PHIP (1st submission),聆訊後資料集（第一次呈交）,Application Proofs and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or PHIPs or related materials],0.0,other,,claude-opus-5-5
+10011528,01211,2021-11-12 19:31:00,PROPOSED AMENDMENTS TO THE ARTICLES OF ASSOCIATION; PROPOSED AMENDMENTS TO VARIOUS SETS OF INTERNAL RULES AND REGULATIONS AND NOTICE OF EXTRAORDINARY GENERAL MEETING,建議修訂公司章程 建議修訂若干內部規則及制度 及 臨時股東大會通告,Circulars - [Amendment of Constitutional Documents / Other],0.0,routine,,claude-opus-5-5
+11210473,00883,2024-05-14 17:06:00,2023 ANNUAL GENERAL MEETING EXPLANATORY STATEMENT AND PROPOSED AMENDMENTS TO THE ARTICLES OF ASSOCIATION,2023年度股東周年大會說明函件及建議修訂組織章程細則,Circulars - [Amendment of Constitutional Documents / Re-election or Appointment of Director subject to Shareholders' Approval / Explanatory Statement for Repurchase of Shares / General Mandate / Other],0.0,routine,,claude-opus-5-5
+11706400,03988,2025-06-06 19:57:00,Circular of 2024 Annual General Meeting,2024年股東周年大會通函,Circulars - [Amendment of Constitutional Documents / Re-election or Appointment of Director subject to Shareholders' Approval / Issue of Debt Securities / Other],0.0,routine,,claude-opus-5-5
+10983167,00823,2023-11-29 16:37:00,Revocation Notice - Distribution Reinvestment Scheme in respect of the Interim Distribution for the Six Months Ended 30 September 2023,撤銷通知書 - 截至2023年9月30日止六個月中期分派之分派再投資計劃,Circulars - [Capitalisation Issue / Matters relating to Collective Investment Schemes],0.0,dividend,,claude-opus-5-5
+11283342,00823,2024-07-11 16:55:00,Election Form - Distribution Reinvestment Scheme in respect of the Final Distribution for the Financial Year Ended 31 March 2024,選擇表格 - 截至2024年3月31日止財政年度末期分派之分派再投資計劃,Circulars - [Capitalisation Issue / Matters relating to Collective Investment Schemes],0.0,dividend,,claude-opus-5-5
+11242959,00066,2024-06-07 16:31:00,Scrip Dividend Scheme - 2023 Final Dividend,以股代息計劃 – 2023末期股息,Circulars - [Capitalisation Issue],0.0,dividend,,claude-opus-5-5
+12232000,01088,2026-07-03 17:32:00,"(1) APPOINTMENT OF AUDITORS FOR 2026, (2) 2026 ANNUAL REMUNERATION PLAN OF DIRECTORS AND NOTICE OF 2026 SECOND EXTRAORDINARY GENERAL MEETING","(1) 聘任2026年度審計師, (2) 董事2026年度薪酬方案及2026年第二次臨時股東會通告",Circulars - [Change in Auditors subject to Shareholders' Approval / Other],0.0,routine,,claude-opus-5-5
+11245277,02628,2024-06-11 17:32:00,"Appointment of Auditors for the Year 2024, Election of Mr. Lu Feng as an Independent Director of the Eighth Session of the Board of Directors and Supplemental Notice of Annual General Meeting",2024年度審計師聘用、選舉盧鋒先生為第八屆董事會獨立董事及股東週年大會補充通告,Circulars - [Change in Auditors subject to Shareholders' Approval / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+9775845,02628,2021-05-25 16:32:00,"Appointment of Auditors for the Year 2021, General Mandate to Issue H Shares and Supplemental Notice of Annual General Meeting",2021年度審計師聘用發行H股股份的一般性授權及股東週年大會補充通告,Circulars - [Change in Auditors subject to Shareholders' Approval / General Mandate],0.0,routine,,claude-opus-5-5
+9734007,01113,2021-04-26 16:49:00,DISCLOSEABLE AND CONNECTED TRANSACTION AND CONDITIONAL CASH OFFER TO BUY-BACK SHARES,須予披露及關連交易及有條件現金要約回購股份,Circulars - [Connected Transaction / Issue of Shares / Document issued pursuant to Code on Share Buy-backs / Document issued by Offeror Company under the Takeovers Code / Document issued by Offeree Company under the Takeovers Code],0.0,buyback,circular for known offer,claude-opus-5-5
+10680735,00175,2023-04-06 07:55:00,DISCLOSEABLE AND CONNECTED TRANSACTIONS IN RELATION TO THE ACQUISITIONS OF 49.9% OF THE ISSUED AND PAID-UP ORDINARY SHARE CAPITAL OF PROTON AND DHG,有關收購寶騰及DHG之49.9%已發行及繳足普通股股本之須予披露及關連交易,Circulars - [Connected Transaction],0.0,mna,,claude-opus-5-5
+10886413,00175,2023-09-05 17:18:00,"(I) DISCLOSEABLE TRANSACTION AND CONNECTED TRANSACTION
+IN RELATION TO FORMATION OF A JOINT VENTURE
+AND
+DEEMED DISPOSAL;
+(II) CONTINUING CONNECTED TRANSACTIONS UPON COMPLETION OF
+FORMATION OF A JOINT VENTURE","(I) 有關成立一間合資企業及視作出售事項之
+須予披露交易及關連交易；
+(II) 於成立一間合資企業完成後之持續關連交易",Circulars - [Connected Transaction / Continuing Connected Transaction],0.0,mna,,claude-opus-5-5
+9941721,01088,2021-09-17 17:28:00,CONTINUING CONNECTED TRANSACTIONS- TERMINATION OF THE ORIGINAL MUTUAL COAL SUPPLY  AGREEMENT AND ENTERING INTO NEW MUTUAL COAL SUPPLY AGREEMENT; TERMINATION OF THE ORIGINAL MUTUAL SUPPLIES AND SERVICES AGREEMENT AND ENTERING INTO NEW MUTUAL SUPPLIES AND SERVICES AGREEMENT,持續關連交易- 解除原煤炭互供協議及訂立新煤炭互供協議 解除原產品和服務互供協議及訂立新產品和服務互供協議,Circulars - [Continuing Connected Transaction],0.0,routine,,claude-opus-5-5
+10478065,00175,2022-10-25 17:57:00,"REVISION OF ANNUAL CAPS FOR
+CONTINUING CONNECTED TRANSACTIONS",修訂持續關連交易之年度上限,Circulars - [Continuing Connected Transaction],0.0,routine,,claude-opus-5-5
+10744969,02628,2023-05-23 16:30:00,"Reports of Board of Directors & Board of Supervisors for 2022, Financial Report & Profit Distribution Plan for 2022, Remuneration of Directors & Supervisors, Appointment of Auditors for 2023, Formulation of the Provisional Measures of Performance-Based Remuneration of Directors, Supervisors, Senior Management & Personnel in Key Positions, CCT under the Agreement for Entrusted Investment & Management & Operating Services with respect to Alternative Investments with Insurance Funds & Notice of AGM",2022年度董事會報告及監事會報告、2022年度財務報告及利潤分配方案、董事及監事薪酬、2023年度審計師聘用、制定《董事、監事、高級管理人員和關鍵崗位人員績效薪酬追索扣回管理暫行辦法》、《保險資金另類投資委託投資管理及運營服務協議》下之持續關連交易及股東週年大會通告,Circulars - [Continuing Connected Transaction],0.0,routine,,claude-opus-5-5
+11383119,02318,2024-09-27 16:30:00,COMPOSITE DOCUMENT (1) MANDATORY UNCONDITIONAL CASH OFFERS BY MORGAN STANLEY FOR AND ON BEHALF OF THE JOINT OFFERORS TO ACQUIRE ALL LUFAX SHARES AND LUFAX ADSs AND TO CANCEL ALL OUTSTANDING LUFAX OPTIONS; AND (2) LUFAX PSU ARRANGEMENT WITH RESPECT TO ALL UNVESTED LUFAX PSUs,綜合文件 (1) 摩根士丹利為及代表聯合要約人作出強制性無條件現金要約以收購所有陸金所股份及陸金所美國存託股份及以註銷所有尚未行使陸金所期權；及 (2) 有關所有未歸屬陸金所績效股份單位的陸金所績效股份單位安排,Circulars - [Document issued by Offeree Company under the Takeovers Code / Document issued by Offeror Company under the Takeovers Code],0.0,mna,composite doc for known offer,claude-opus-5-5
+10928421,01093,2023-10-09 16:44:00,(1) GRANT OF SHARE OPTIONS UNDER THE SHARE OPTION SCHEME (2) APPLICATION FOR WHITEWASH WAIVER AND (3) NOTICE OF EGM,(1)根據購股權計劃授予購股權 (2)申請清洗交易的寬免及 (3)股東特別大會通告,Circulars - [Document issued by Offeree Company under the Takeovers Code / Share Scheme],0.0,other,,claude-opus-5-5
+10753282,02319,2023-05-31 06:05:00,"(1) PROPOSED PRIVATIZATION OF YASHILI BY STAR FUTURE
+INVESTMENT COMPANY LIMITED BY WAY OF A SCHEME OF
+ARRANGEMENT
+(UNDER SECTION 86 OF THE COMPANIES ACT)
+AND
+(2) PROPOSED WITHDRAWAL OF LISTING OF YASHILI","(1)星萊投資有限公司建議透過協議安排方式（根據公司法第86條）對雅士利進行私有化
+及
+(2)建議撤銷雅士利上市地位",Circulars - [Document issued by Offeree Company under the Takeovers Code / Document issued by Offeror Company under the Takeovers Code / Privatisation/Withdrawal of Listing of Securities],0.0,privatisation,scheme document,claude-opus-5-5
+11954857,00005,2025-12-15 06:30:00,(1) Proposal for the Privatisation of Hang Seng Bank Limited by The Hongkong and Shanghai Banking Corporation Limited by way of a Scheme of Arrangement under Section 673 of the Companies Ordinance and (2) Proposed Withdrawal of Listing of Hang Seng Bank Shares,(1) 香港上海滙豐銀行有限公司根據《公司條例》第673條以協議安排方式將恒生銀行有限公司私有化之建議及 (2) 建議撤銷恒生銀行股份的上市地位,Circulars - [Document issued by Offeror Company under the Takeovers Code / Document issued by Offeree Company under the Takeovers Code],0.0,privatisation,scheme document,claude-opus-5-5
+9869863,00288,2021-07-29 20:17:00,FORM OF ACCEPTANCE,接納表格,Circulars - [Document issued pursuant to Code on Share Buy-backs / Document issued by Offeree Company under the Takeovers Code / Document issued by Offeror Company under the Takeovers Code],0.0,buyback,,claude-opus-5-5
+9869843,00288,2021-07-29 20:11:00,"(1) CONDITIONAL VOLUNTARY CASH OFFER
+BY MERRILL LYNCH (ASIA PACIFIC) LIMITED AND
+MORGAN STANLEY ASIA LIMITED ON BEHALF OF
+THE COMPANY TO BUY-BACK UP TO 1,916,937,202 SHARES
+AT A PRICE OF HK$7.80 PER SHARE
+(2) APPLICATION FOR WHITEWASH WAIVER
+AND
+(3) NOTICE OF EGM","(1) MERRILL LYNCH (ASIA PACIFIC) LIMITED及
+摩根士丹利亞洲有限公司代表本公司提出
+有條件自願性現金要約以按每股股份7.80港元之價格回購
+最多達1,916,937,202股股份
+(2)申請清洗豁免
+及
+(3)臨時股東大會通告",Circulars - [Document issued pursuant to Code on Share Buy-backs / Document issued by Offeree Company under the Takeovers Code / Document issued by Offeror Company under the Takeovers Code],0.0,buyback,,claude-opus-5-5
+9734339,01113,2021-04-26 17:22:00,FORM OF ACCEPTANCE,接納表格,Circulars - [Document issued pursuant to Code on Share Buy-backs],0.0,buyback,,claude-opus-5-5
+11166994,00006,2024-04-19 16:48:00,"Circular on proposed general mandates to issue new shares and to repurchase shares and proposed re-election of directors, and notice of annual general meeting",通函：一般性授權發行新股份與購回股份之建議及建議重選董事，以及股東週年大會通告,Circulars - [Explanatory Statement for Repurchase of Shares / General Mandate / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+10686945,00941,2023-04-13 17:39:00,"BUY-BACK MANDATE
+RE-ELECTION OF DIRECTORS
+PROVISION OF EXTERNAL GUARANTEES
+AND
+NOTICE OF THE ANNUAL GENERAL MEETING","購回授權
+董事重選連任
+提供對外擔保
+及
+股東週年大會通告",Circulars - [Explanatory Statement for Repurchase of Shares / Re-election or Appointment of Director subject to Shareholders' Approval / Other],0.0,routine,,claude-opus-5-5
+10250293,01211,2022-05-05 19:45:00,CIRCULARS,通函,Circulars - [Explanatory Statement for Repurchase of Shares / Other],0.0,routine,,claude-opus-5-5
+11856614,00017,2025-09-26 16:55:00,"PROPOSALS INVOLVING GENERAL MANDATES TO BUY BACK SHARES AND TO ISSUE SHARES, MANDATE TO GRANT OPTIONS AND RE-ELECTION OF RETIRING DIRECTORS AND NOTICE OF ANNUAL GENERAL MEETING",有關回購股份及發行股份之一般性授權、授出購股權之授權和重選退任董事之建議及股東週年大會通告,Circulars - [General Mandate / Explanatory Statement for Repurchase of Shares / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+9728885,00288,2021-04-22 16:39:00,(1) PROPOSED RE-ELECTION OF RETIRING DIRECTORS (2) PROPOSED GRANTING OF GENERAL MANDATES TO REPURCHASE SHARES AND TO ISSUE SHARES  (3) PROPOSED FINAL DIVIDEND AND (4) NOTICE OF THE ANNUAL GENERAL MEETING,"(1) 建議重選退任董事
+(2) 建議授出購回股份及發行股份的一般授權
+(3) 建議末期股息及
+(4) 股東週年大會通告",Circulars - [General Mandate / Explanatory Statement for Repurchase of Shares / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+11644961,01024,2025-04-28 07:36:00,"PROPOSED GRANTING OF GENERAL MANDATES TO REPURCHASE SHARES AND TO ISSUE SHARES, PROPOSED RE-ELECTION OF DIRECTORS, PROPOSED RE-APPOINTMENT OF AUDITOR AND NOTICE OF THE ANNUAL GENERAL MEETING",建議授出購回股份及發行股份之一般授權，建議重選董事，建議續聘核數師及股東週年大會通告,Circulars - [General Mandate / Explanatory Statement for Repurchase of Shares / Re-election or Appointment of Director subject to Shareholders' Approval / Other],0.0,routine,,claude-opus-5-5
+9946349,02319,2021-09-23 18:22:00,"STRUCTURE OF THE RELEVANT SCHEME, PROPOSED PLACING UNDER SPECIFIC MANDATE OF UP TO HK$ EQUIVALENT OF RMB4,000,000,000 FIXED RATE 5-YEAR CONVERTIBLE BONDS, CONNECTED TRANSACTIONS","有關計劃架構,
+建議根據特別授權配售
+不超過人民幣4,000,000,000元等值港元5年定息
+可換股債券,
+關連交易",Circulars - [Issue of Convertible Securities / Issue of Debt Securities / Issue of Shares / Connected Transaction / Other],-0.5,financing,RMB4bn convertible under specific mandate,claude-opus-5-5
+11909601,01398,2025-11-07 16:51:00,Notice of the Second Extraordinary Shareholders' Meeting of 2025,2025年第二次臨時股東會通知,Circulars - [Issue of Debt Securities / Other],0.0,financing,,claude-opus-5-5
+11910014,00939,2025-11-07 18:04:00,Circular of the Second Extraordinary Shareholders' Meeting of 2025,2025年第二次臨時股東會會議通函,Circulars - [Issue of Debt Securities],0.0,financing,,claude-opus-5-5
+11639375,02318,2025-04-24 17:22:00,Proposed Issue of Domestic Debt Financing Instruments and Supplemental Notice of Annual General Meeting,建議發行境內債券融資工具及股東週年大會補充通告,Circulars - [Issue of Debt Securities],0.0,financing,,claude-opus-5-5
+9958292,00883,2021-10-04 06:19:00,(1) PROPOSED RMB SHARE ISSUE UNDER SPECIFIC MANDATE (2) PROPOSED AMENDMENTS TO ARTICLES OF ASSOCIATION AND (3) NOTICE OF EXTRAORDINARY GENERAL MEETING,(1)建議根據特別授權進行人民幣股份發行 (2)建議修訂組織章程細則 及 (3)股東特別大會通告,Circulars - [Issue of Shares / Amendment of Constitutional Documents / Other],0.0,financing,,claude-opus-5-5
+9774425,00941,2021-05-24 12:06:00,PROPOSED RMB SHARE ISSUE UNDER SPECIFIC MANDATE; PROPOSED AMENDMENT TO ARTICLES OF ASSOCIATION AND NOTICE OF THE EXTRAORDINARY GENERAL MEETING,建議根據特別授權進行人民幣股份發行；建議修訂組織章程細則及股東特別大會通告,Circulars - [Issue of Shares / Amendment of Constitutional Documents / Other],0.0,financing,,claude-opus-5-5
+9617634,01093,2021-02-07 18:07:00,"PROPOSED DOMESTIC ISSUE UNDER SPECIFIC MANDATE, PROPOSED AMENDMENTS TO ARTICLES OF ASSOCIATION, RE-ELECTION OF DIRECTORS AND NOTICE OF THE EGM",根據特別授權建議境內發行、建議修訂組織章程細則、重選董事及股東特別大會通告,Circulars - [Issue of Shares / Amendment of Constitutional Documents / Re-election or Appointment of Director subject to Shareholders' Approval / Other],0.0,financing,,claude-opus-5-5
+12121669,02020,2026-04-24 17:33:00,MAJOR TRANSACTION - ACQUISITION OF 29.06% EQUITY INTEREST IN PUMA SE,主要交易 - 收購PUMA SE的29.06%股權,Circulars - [Major Transaction],0.0,mna,circular for known Puma deal,claude-opus-5-5
+10567660,00762,2023-01-05 15:51:00,Major Transaction - Approval to Sign Commercial Pricing Agreement and Service Agreement with China Tower Corporation Limited,主要交易 - 批准與中國鐵塔股份有限公司簽署商務定價協議及服務協議,Circulars - [Major Transaction],0.0,contract,,claude-opus-5-5
+10516777,00291,2022-11-24 16:30:00,MAJOR TRANSACTION IN RELATION TO THE ACQUISITION OF 55.19% EQUITY INTEREST IN A TARGET COMPANY,有關收購目標公司55.19%股權的主要交易,Circulars - [Major Transaction],0.0,mna,,claude-opus-5-5
+11220141,02319,2024-05-24 16:30:00,SUPPLEMENTAL CIRCULAR - RE-ELECTION OF DIRECTOR AND SUPPLEMENTAL NOTICE OF ANNUAL GENERAL MEETING,補充通函 - 重選董事及股東週年大會補充通告,Circulars - [Material Information after Issue of Circular / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+10006343,01398,2021-11-09 18:22:00,Supplemental Notice of the Second Extraordinary General Meeting of 2021,2021年第二次臨時股東大會補充通知,Circulars - [Material Information after Issue of Circular / Issue of Debt Securities],0.0,routine,,claude-opus-5-5
+10498985,00939,2022-11-08 17:37:00,Supplemental Circular of the First Extraordinary General Meeting of 2022,2022年第一次臨時股東大會補充通函,Circulars - [Material Information after Issue of Circular / Nomination of Director by Shareholder / Re-election or Appointment of Director subject to Shareholders' Approval],0.0,routine,,claude-opus-5-5
+10523210,00823,2022-11-30 18:40:00,Notification Letter to Unitholders - Notice of publication of Interim Report 2022/2023 and the Circular dated 1 December 2022 in relation to the Distribution Reinvestment Scheme,致基金單位持有人之通知信函 - 2022/2023中期報告及日期為2022年12月1日關於分派再投資計劃之通函之登載通知,Circulars - [Other],0.0,routine,,claude-opus-5-5
+11309478,00017,2024-08-02 16:43:00,NOTIFICATION AND REQUEST FORM TO NON-REGISTERED HOLDERS OF SECURITIES,致證券的非登記持有人的通知及申請表格,Circulars - [Other],0.0,routine,,claude-opus-5-5
+10694126,02318,2023-04-19 20:45:00,Election of Means and Language of Receipt of Corporate Communication,選擇公司通訊之收取方式及語言版本,Circulars - [Other],0.0,routine,,claude-opus-5-5
+11243728,03988,2024-06-07 18:55:00,2023 Annual General Meeting Circular,2023年股東周年大會通函,Circulars - [Re-election or Appointment of Director subject to Shareholders' Approval / Issue of Debt Securities],0.0,routine,,claude-opus-5-5
+10258983,00857,2022-05-13 16:41:00,SUPPLEMENTAL CIRCULAR PROPOSED ELECTION AND APPOINTMENT OF DIRECTOR PROPOSED ELECTION AND APPOINTMENT OF SUPERVISORS PROPOSED AMENDMENTS TO THE BUSINESS SCOPE PROPOSED AMENDMENTS TO THE ARTICLES OF ASSOCIATION AND SUPPLEMENTAL NOTICE OF ANNUAL GENERAL MEETING,補充通函 建議選舉及委任董事 建議選舉及委任監事 建議修改經營範圍 建議修訂公司章程及年度股東大會補充通知,Circulars - [Re-election or Appointment of Director subject to Shareholders' Approval / Amendment of Constitutional Documents / Other],0.0,routine,,claude-opus-5-5
+10690329,00001,2023-04-17 17:18:00,NOTICE OF ANNUAL GENERAL MEETING; PROPOSALS FOR RE-ELECTION OF DIRECTORS AND GENERAL MANDATES TO ISSUE NEW SHARES AND REPURCHASE SHARES,股東週年大會通告；重選董事及一般性授權發行新股份及購回股份之建議,Circulars - [Re-election or Appointment of Director subject to Shareholders' Approval / General Mandate / Explanatory Statement for Repurchase of Shares],0.0,routine,,claude-opus-5-5
+10623646,00823,2023-03-06 21:06:00,Rights Issue Guide,供股指引,Circulars - [Rights Issue],0.0,rights_issue,document for known rights issue,claude-opus-5-5
+10225796,00700,2022-04-25 17:41:00,PROPOSED REFRESHMENT OF SCHEME MANDATE LIMIT UNDER THE SHARE OPTION PLAN OF TENCENT MUSIC ENTERTAINMENT GROUP AND NOTICE OF EXTRAORDINARY GENERAL MEETING,建議更新騰訊音樂娛樂集團購股權計劃項下之計劃授權限額及股東特別大會通告,Circulars - [Share Option Scheme],0.0,routine,,claude-opus-5-5
+9955505,01810,2021-09-30 18:01:00,PROPOSED ADOPTION OF THE SUBSIDIARY SHARE OPTION SCHEME AND NOTICE OF THE EXTRAORDINARY GENERAL MEETING,建議採納附屬公司購股權計劃及股東特別大會通告,Circulars - [Share Option Scheme],0.0,routine,,claude-opus-5-5
+9732699,00700,2021-04-23 20:28:00,PROPOSED ADOPTION OF THE SHARE OPTION PLAN OF CHINA LITERATURE LIMITED AND NOTICE OF EXTRAORDINARY GENERAL MEETING,建議採納閱文集團購股權計劃及股東特別大會通告,Circulars - [Share Option Scheme],0.0,routine,,claude-opus-5-5
+12120964,02382,2026-04-24 16:49:00,(1) PROPOSED ADOPTION OF THE 2026 SHARE AWARD SCHEME AND (2) NOTICE OF EXTRAORDINARY GENERAL MEETING,(1) 建議採納二零二六年股份獎勵計劃及 (2) 股東特別大會通告,Circulars - [Share Scheme],0.0,routine,,claude-opus-5-5
+10721766,02331,2023-05-02 17:04:00,"(1) PROPOSED ADOPTION OF THE 2023 SHARE OPTION SCHEME
+AND TERMINATION OF THE 2014 SHARE OPTION SCHEME,
+(2) PROPOSED ADOPTION OF THE 2023 SHARE AWARD SCHEME,
+AND
+(3) NOTICE OF EXTRAORDINARY GENERAL MEETING","(1) 建議採納2023年購股權計劃及終止2014年購股權計劃、
+(2) 建議採納2023年股份獎勵計劃、
+及
+(3) 股東特別大會通告",Circulars - [Share Scheme],0.0,routine,,claude-opus-5-5
+10700880,00700,2023-04-24 18:43:00,"PROPOSED ADOPTION OF THE 2023 SHARE OPTION SCHEME, PROPOSED ADOPTION OF THE 2023 SHARE AWARD SCHEME AND NOTICE OF EXTRAORDINARY GENERAL MEETING",建議採納二零二三年購股權計劃、建議採納二零二三年股份獎勵計劃及股東特別大會通告,Circulars - [Share Scheme],0.0,routine,,claude-opus-5-5
+11225283,00175,2024-05-29 16:31:00,"(1) DISTRIBUTION IN SPECIE;
+AND
+(2) NOTICE OF EXTRAORDINARY GENERAL MEETING","(1)以實物方式分派；
+及
+(2)股東特別大會通告",Circulars - [Spin-off / Other],0.5,dividend,distribution in specie,claude-opus-5-5
+9783413,01211,2021-05-31 17:16:00,PROPOSED SPIN-OFF AND LISTING OF BYD SEMICONDUCTOR ON THE CHINEXT BOARD OF SHENZHEN STOCK EXCHANGE; PROPOSED ADOPTION OF SUBSIDIARY SHARE OPTION SCHEME AND NOTICE OF EXTRAORDINARY GENERAL MEETING,"建議分拆比亞迪半導體並於深交所創業板上市
+建議採納子公司股權期權計劃
+及
+臨時股東大會通告",Circulars - [Spin-off / Share Option Scheme],0.0,mna,spin-off circular,claude-opus-5-5
+12301501,09888,2026-08-27 08:16:00,Company Information Sheet,公司資料表,Company Information Sheet,0.0,routine,,claude-opus-5-5
+12220980,09999,2026-06-29 20:10:00,COMPANY INFORMATION SHEET,公司資料冊,Company Information Sheet,0.0,routine,,claude-opus-5-5
+11333374,09988,2024-08-23 08:28:00,Company Information Sheet,公司資料報表,Company Information Sheet,0.0,routine,,claude-opus-5-5
+9665995,09888,2021-03-22 06:34:00,Third Amended and Restated Memorandum of Association and Articles of Association,第三次修訂及重列的組織章程大綱及組織章程細則,Constitutional Documents,0.0,routine,,claude-opus-5-5
+10075744,00941,2022-01-04 07:40:00,ARTICLES OF ASSOCIATION,組織章程細則,Constitutional Documents,0.0,routine,,claude-opus-5-5
+11248563,01024,2024-06-13 20:33:00,AMENDED AND RESTATED MEMORANDUM AND ARTICLES OF ASSOCIATION,經修訂及重述組織章程大綱及細則,Constitutional Documents,0.0,routine,,claude-opus-5-5
+12161950,00669,2026-05-18 16:36:00,"NOTICE OF LISTING ON THE STOCK EXCHANGE OF HONG KONG LIMITED - TECHTRONIC INDUSTRIES COMPANY LIMITED - U.S.$500,000,000 MEDIUM TERM NOTE PROGRAMME",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Formal Notice - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+10949047,00066,2023-10-31 18:58:00,US$10 Billion Debt Issuance Programme of MTR Corporation Limited and MTR Corporation (C.I.) Limited (unconditionally and irrevocably guaranteed by MTR Corporation Limited) - Notice of Listing on The Stock Exchange of Hong Kong Limited,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Formal Notice - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11997431,00012,2026-01-21 19:41:00,"NOTICE OF LISTING ON THE STOCK EXCHANGE OF HONG KONG LIMITED - HENDERSON LAND MTN LIMITED - U.S.$7,000,000,000 Medium Term Note Programme",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Formal Notice - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11316479,00017,2024-08-08 17:03:00,"NOTICE OF LISTING - NWD (MTN) LIMITED USD400M 8.625% GUARANTEED NOTES DUE 2028 (STOCK CODE: 5149) ISSUED UNDER THE USD7,000M MEDIUM TERM NOTE PROGRAMME",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Formal Notice - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+12236248,02382,2026-07-07 17:25:00,"NOTICE OF LISTING ON THE STOCK EXCHANGE OF HONG KONG LIMITED - SUNNY OPTICAL TECHNOLOGY (GROUP) COMPANY LIMITED CNY2,700,000,000 2.15 PER CENT. BONDS DUE 2031","於香港聯合交易所有限公司上市的通告 - 舜宇光學科技（ 集團）有限公司 於二零三一年到期之2,700,000,000人民幣2.15%債券",Debt and Structured Products - [Formal Notice - Debt Securities],0.0,financing,,claude-opus-5-5
+9851276,01810,2021-07-14 21:46:00,Xiaomi Best Time International Limited - US$800 MILLION 2.875% SENIOR BONDS DUE 2031 AND US$400 MILLION 4.100% SENIOR GREEN BONDS DUE 2051 UNCONDITIONALLY AND IRREVOCABLY GUARANTEED BY XIAOMI CORPORATION,Xiaomi Best Time International Limited - 8 億美元於2 0 3 1 年到期的2 . 8 7 5 % 優先債券及 4 億美元於2 0 5 1 年到期的4 . 1 0 0 % 優先綠色債券由小米集團無條件及不可撤回擔保,Debt and Structured Products - [Formal Notice - Debt Securities],0.0,financing,,claude-opus-5-5
+10295776,00017,2022-06-08 12:00:00,LAUNCH OF TENDER OFFER,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Inside Information - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11942858,00017,2025-12-03 21:54:00,ANNOUNCEMENT OF FINAL RESULTS FOR THE EXPIRATION DATE IN RELATION TO THE EXCHANGE OFFERS,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Inside Information - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+12032265,00017,2026-02-27 17:59:00,DISTRIBUTION DEFERRAL IN RESPECT OF RELEVANT PERPETUAL SECURITIES ISSUED BY NWD FINANCE (BVI) LIMITED AND GUARANTEED BY NEW WORLD DEVELOPMENT COMPANY LIMITED,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Inside Information - Debt Securities],-1.0,financing,perpetual distribution deferral; ZH title is placeholder; labelled from EN,claude-opus-5-5
+11376883,01398,2024-09-24 12:00:00,"Publication of Offering Circular - Update of U.S.$20,000,000,000 Global Medium Term Note Programme of Industrial and Commercial Bank of China Limited","發行通函發佈 - 中國工商銀行股份有限公司20,000,000,000美元全球中期票據計劃更新",Debt and Structured Products - [Offering Circular - Debt Issuance Programmes],0.0,financing,,claude-opus-5-5
+12297484,03988,2026-08-25 12:00:00,Publication of Offering Circular on The Stock Exchange of Hong Kong Limited of the USD40 Billion Medium Term Note Programme of Bank of China Limited,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Offering Circular - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11809232,03988,2025-08-26 16:31:00,"Publication of Offering Circular on The Stock Exchange of Hong Kong Limited of the U.S.$40,000,000,000 Medium Term Note Programme of Bank of China Limited",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Offering Circular - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+10123776,03988,2022-02-17 12:07:00,"The Offering Circular and Pricing Supplement of Listing on the HKSE of Green Notes Issued by Bank of China Limited, Hungarian branch under the USD40 Billion Medium Term Note Programme",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Offering Circular and Pricing Supplement - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+9851624,01810,2021-07-15 12:08:00,PUBLICATION OF OFFERING MEMORANDUM - US$800 MILLION 2.875% SENIOR BONDS DUE 2031 AND US$400 MILLION 4.100% SENIOR GREEN BONDS DUE 2051 BY XIAOMI BEST TIME INTERNATIONAL LIMITED,刊發發售備忘錄 - XIAOMI BEST TIME INTERNATIONAL LIMITED 發行8 億美元於2 0 3 1 年到期的2 . 8 7 5 % 優先債券及4 億美元於2 0 5 1 年到期的4 . 1 0 0 % 優先綠色債券,Debt and Structured Products - [Offering Circular and Pricing Supplement - Debt Securities],0.0,financing,,claude-opus-5-5
+11907217,03690,2025-11-06 12:00:00,"PUBLICATION OF OFFERING MEMORANDUM - MEITUAN - US$600 MILLION 4.500% SENIOR NOTES DUE 2031, US$600 MILLION 4.750% SENIOR NOTES DUE 2032 AND US$800 MILLION 5.125% SENIOR NOTES DUE 2035",刊發發售通函 - 美團 - 600百萬美元於二零三一年到期的4.500%優先票據、600百萬美元於二零三二年到期的4.750%優先票據及800百萬美元於二零三五年到期的5.125%優先票據,Debt and Structured Products - [Offering Circular and Pricing Supplement - Debt Securities],0.0,financing,,claude-opus-5-5
+11676564,00669,2025-05-16 17:14:00,"VOLUNTARY ANNOUNCEMENT UPDATE OF U.S.$500,000,000 MEDIUM TERM NOTE PROGRAMME",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Other - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+12161904,00669,2026-05-18 16:31:00,"VOLUNTARY ANNOUNCEMENT UPDATE OF U.S.$500,000,000 MEDIUM TERM NOTE PROGRAMME",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Other - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11213190,00669,2024-05-17 16:40:00,"VOLUNTARY ANNOUNCEMENT UPDATE OF U.S.$500,000,000 MEDIUM TERM NOTE PROGRAMME",發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Other - Debt Issuance Programmes],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+10332822,01928,2022-07-05 20:02:00,Proposed Exchange Offer of the Outstanding Notes,未償付票據建議交換要約,Debt and Structured Products - [Other - Debt Securities],0.0,financing,,claude-opus-5-5
+10274579,01928,2022-05-26 19:44:00,Proposed Exchange Offer of the Outstanding Notes,未償付票據建議交換要約,Debt and Structured Products - [Other - Debt Securities],0.0,financing,,claude-opus-5-5
+10101181,01928,2022-01-25 20:14:00,Proposed Exchange Offer of the Outstanding Notes,未償付票據建議交換要約,Debt and Structured Products - [Other - Debt Securities],0.0,financing,,claude-opus-5-5
+11541585,00005,2025-02-19 12:03:00,HSBC HOLDINGS PLC - CHANGE IN OWN FUNDS AND MREL RECOGNITION OF CERTAIN DEBT SECURITIES,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Overseas Regulatory Announcement - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11013857,00003,2023-12-22 16:31:00,Redemption Notice to Holders,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Redemption or Repurchase - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11649723,03690,2025-04-29 16:30:00,PARTIAL EARLY REDEMPTION OF THE CONVERTIBLE BONDS - ZERO COUPON CONVERTIBLE BONDS DUE 2027,提早贖回部分可換股債券 - 於二零二七年到期的零息可換股債券,Debt and Structured Products - [Redemption or Repurchase - Debt Securities],0.0,financing,,claude-opus-5-5
+10996675,00017,2023-12-06 07:25:00,SETTLEMENT OF TENDER OFFER,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Debt and Structured Products - [Redemption or Repurchase - Debt Securities],0.0,financing,ZH title is placeholder; labelled from EN,claude-opus-5-5
+9997345,01088,2021-11-02 17:59:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",2020年度企業年度報告書,Documents on Display,0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10567665,00762,2023-01-05 16:31:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",展示文件 - 商務定價協議,Documents on Display,0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10745121,02628,2023-05-23 16:44:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",中國人壽保險股份有限公司與國壽投資保險資產管理有限公司保險資金另類投資委託投資管理及運營服務協議,Documents on Display,0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11642040,00939,2025-04-25 16:48:00,2024 Annual Report,二零二四年年報,Financial Statements/ESG Information - [Annual Report],0.0,routine,,claude-opus-5-5
+11650823,02331,2025-04-29 17:00:00,ANNUAL REPORT 2024,2024年度報告,"Financial Statements/ESG Information - [Annual Report / Environmental, Social and Governance Information/Report]",0.0,routine,,claude-opus-5-5
+11580969,01088,2025-03-21 21:55:00,2024 Annual Report,2024年度報告,Financial Statements/ESG Information - [Annual Report],0.0,routine,,claude-opus-5-5
+11159910,00288,2024-04-15 17:03:00,"2023 Environmental, Social and Governance Report",2023 環境、社會及管治報告,"Financial Statements/ESG Information - [Environmental, Social and Governance Information/Report]",0.0,routine,,claude-opus-5-5
+12121823,00012,2026-04-24 17:49:00,Sustainability Report 2025,2025年可持續發展報告,"Financial Statements/ESG Information - [Environmental, Social and Governance Information/Report]",0.0,routine,,claude-opus-5-5
+10278917,00291,2022-05-30 18:33:00,"Environmental, Social and Governance Report 2021",二零二一年環境、社會及管治報告,"Financial Statements/ESG Information - [Environmental, Social and Governance Information/Report]",0.0,routine,,claude-opus-5-5
+12327259,00066,2026-09-10 16:30:00,Interim Report 2026,2026中期報告,Financial Statements/ESG Information - [Interim/Half-Year Report],0.0,routine,,claude-opus-5-5
+11846239,01093,2025-09-18 17:43:00,2025 INTERIM REPORT,二零二五年中期報告,Financial Statements/ESG Information - [Interim/Half-Year Report],0.0,routine,,claude-opus-5-5
+10426611,02382,2022-09-09 16:57:00,Interim Report 2022,二零二二年中期報告,Financial Statements/ESG Information - [Interim/Half-Year Report],0.0,routine,,claude-opus-5-5
+10623574,00823,2023-03-06 20:37:00,Excess Application Form,額外申請表格,Listing Documents - [Authorised Collective Investment Scheme / Rights Issue],0.0,rights_issue,document for known rights issue,claude-opus-5-5
+10623564,00823,2023-03-06 20:35:00,Provisional Allotment Letter,暫定配額通知書,Listing Documents - [Authorised Collective Investment Scheme / Rights Issue],0.0,rights_issue,,claude-opus-5-5
+10623550,00823,2023-03-06 20:33:00,Rights Issue on The Basis of One (1) Rights Unit for Every Five (5) Units Held on The Record Date at The Subscription Price of HK$44.20 Per Rights Unit,按於記錄日期每持有五(5) 個基金單位可獲配發一(1) 個供股基金單位之基準以認購價為每個供股基金單位44.20 港元進行供股,Listing Documents - [Authorised Collective Investment Scheme / Rights Issue],0.0,rights_issue,,claude-opus-5-5
+9597264,01024,2021-01-26 06:47:00,GREEN APPLICATION FORM,綠色申請表格,Listing Documents - [Offer for Subscription],0.0,other,IPO document,claude-opus-5-5
+9597247,01024,2021-01-26 06:14:00,GLOBAL OFFERING,全球發售,Listing Documents - [Offer for Subscription],0.0,other,IPO document,claude-opus-5-5
+9597258,01024,2021-01-26 06:40:00,GLOBAL OFFERING,全球發售,Listing Documents - [Offer for Subscription],0.0,other,IPO document,claude-opus-5-5
+11660551,00016,2025-05-02 16:43:00,Monthly Return of Equity Issuer on Movements in Securities for the month ended 30 April 2025,截至2025年4 月30 日止股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+12271626,01113,2026-08-04 18:38:00,"MONTHLY RETURN FOR EQUITY ISSUER ON MOVEMENTS IN SECURITIES FOR THE MONTH ENDED 31ST JULY, 2026",截至二零二六年七月三十一日止月份之股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+11197044,00291,2024-05-02 16:51:00,Monthly return for the month ended 30 April 2024,截至2024年4月30日止月份的月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+11876205,00981,2025-10-10 18:38:00,Next Day Disclosure Returns,翌日披露報表,Next Day Disclosure Returns - [Others],0.0,routine,next-day disclosure,claude-opus-5-5
+10878330,00981,2023-09-01 18:14:00,Next Day Disclosure Returns,翌日披露報表,Next Day Disclosure Returns - [Others],0.0,routine,next-day disclosure,claude-opus-5-5
+11462337,00175,2024-12-03 12:14:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Others],0.0,routine,next-day disclosure,claude-opus-5-5
+11775477,09988,2025-07-31 18:30:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback / Others],0.0,routine,next-day disclosure,claude-opus-5-5
+11334134,01093,2024-08-23 17:42:00,NEXT DAY DISCLOSURE RETURNS,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,routine,next-day disclosure,claude-opus-5-5
+12004522,00175,2026-01-29 16:43:00,Next Day Disclosure Returns,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,routine,next-day disclosure,claude-opus-5-5
+11930273,00175,2025-11-27 16:50:00,"FORM OF PROXY FOR THE EXTRAORDINARY GENERAL MEETING TO
+BE HELD ON THURSDAY, 18 DECEMBER 2025 AT 4:30 P.M.
+AT ROOM 2302, 23RD FLOOR, GREAT EAGLE CENTRE, 23 HARBOUR
+ROAD, WAN CHAI, HONG KONG OR ANY ADJOURNMENT THEREOF","將於二零二五年十二月十八日（星期四）下午四時三十分
+假座香港灣仔港灣道23號鷹君中心23樓2302室
+舉行之股東特別大會或其任何續會適用之代表委任表格",Proxy Forms,0.0,routine,,claude-opus-5-5
+11851982,01398,2025-09-23 17:21:00,Proxy Form for the First Extraordinary General Meeting of 2025 to be Held on 16 October 2025,將於2025年10月16日舉行之2025年第一次臨時股東大會之代表委任表格,Proxy Forms,0.0,routine,,claude-opus-5-5
+11828749,02628,2025-09-03 17:25:00,"Form of Proxy of Holders of H Shares for use at the First Extraordinary General Meeting 2025 to be held on Thursday, 25 September 2025",2025年9月25日（星期四）舉行之2025年第一次臨時股東大會適用之H股股東代表委任表格,Proxy Forms,0.0,routine,,claude-opus-5-5
+9884799,00288,2021-08-06 16:31:00,Disclosure of Dealings under Rule 22 of the Takeovers Code,根據《收購守則》規則22作出的交易披露,Takeovers Code - dealing disclosures,0.0,other,,claude-opus-5-5
+9742551,01113,2021-04-29 16:44:00,Disclosure of Dealings under Rule 22 of the Takeovers Code,根據《收購守則》規則22作出的交易披露,Takeovers Code - dealing disclosures,0.0,other,,claude-opus-5-5
+9811196,00288,2021-06-22 16:31:00,Disclosure of Dealings under Rule 22 of the Takeovers Code,根據《收購守則》規則22作出的交易披露,Takeovers Code - dealing disclosures,0.0,other,,claude-opus-5-5
+11302350,00005,2024-07-31 12:01:00,Dividend Currency Election Form,股息貨幣選擇表格,Circulars - [Other],0.0,routine,,claude-opus-5-5
+11402877,00005,2024-10-14 07:31:00,Transaction in own shares,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,buyback,routine buy-back execution; ZH title is placeholder; labelled from EN,claude-opus-5-5
+10076685,00941,2022-01-04 16:07:00,Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 December 2021,截至二零二一年十二月三十一日止股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+11874775,01093,2025-10-09 18:01:00,VOLUNTARY ANNOUNCEMENT - SYH2070 INJECTION (A DOUBLE-STRANDED SMALL INTERFERING RNA DRUG) OBTAINS CLINICAL TRIAL APPROVAL IN THE U.S.,自願公告 - SYH2070注射液（雙鏈小干擾RNA藥物）在美國獲臨床試驗批准,Announcements and Notices - [Other - Business Update],0.0,contract,clinical trial approval,claude-opus-5-5
+10375360,00002,2022-08-08 12:06:00,Declaration of Second Interim Dividend for the year ending 31 December 2022,宣布派發截至2022年12月31日止年度之第二期中期股息,Announcements and Notices - [Dividend or Distribution (Announcement Form)],0.0,dividend,,claude-opus-5-5
+9618376,00175,2021-02-08 16:30:00,UNAUDITED SALES VOLUME IN JANUARY 2021,未經審核之二零二一年一月銷量,Announcements and Notices - [Other - Trading Update],0.0,routine,,claude-opus-5-5
+10877593,02382,2023-09-01 10:17:00,Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 August 2023,截至二零二三年八月三十一日股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+10902386,01211,2023-09-19 21:08:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10951256,00175,2023-11-01 16:32:00,Monthly return for the month ended 31/10/2023,月報表截至31/10/2023,Monthly Returns,0.0,routine,,claude-opus-5-5
+12058975,02318,2026-03-19 17:08:00,Voluntary Announcement Convening of 2025 Annual Results Presentation,自願性公告 召開2025年度業績發佈會,Announcements and Notices - [Other - Corporate Governance Related Matters / Other - Miscellaneous],0.0,routine,,claude-opus-5-5
+11830267,00016,2025-09-04 16:38:00,Final Dividend for the year ended 30 June 2025,截至2025年6月30日止年度之末期股息,Announcements and Notices - [Dividend or Distribution (Announcement Form)],0.0,dividend,,claude-opus-5-5
+11409793,01211,2024-10-18 22:40:00,PROPOSED ADOPTION OF THE 2024 ESOP (DRAFT) PROPOSED ADOPTION OF THE MANAGEMENT MEASURES FOR THE 2024 ESOP PROPOSED GRANT OF AUTHORISATION TO THE BOARD AND ITS AUTHORIZED PERSONS TO DEAL WITH MATTERS IN RELATION TO THE 2024 ESOP IN FULL DISCRETION PROPOSED RENEWAL OF THE REGISTERED CAPITAL OF THE COMPANY AND AMENDMENTS TO THE ARTICLES OF ASSOCIATION AND NOTICE OF EXTRAORDINARY GENERAL MEETING,"建議採納2024年員工持股計劃（草案）
+建議採納2024年員工持股計劃管理辦法
+建議授權董事會及其授權人士全權辦理2024年員工持股計劃相關事項
+建議更新公司註冊資本暨修訂《公司章程》及臨時股東會通告",Circulars - [Share Scheme / Amendment of Constitutional Documents],0.0,routine,,claude-opus-5-5
+10405008,01211,2022-08-29 20:57:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10682569,00700,2023-04-06 22:29:00,NOTIFICATION LETTER AND REQUEST FORM TO NON-REGISTERED HOLDERS,致非登記持有人之通知信函及申請表格,Circulars - [Other],0.0,routine,,claude-opus-5-5
+12254677,01088,2026-07-23 20:44:00,OVERSEAS REGULATORY ANNOUNCEMENT,海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Board/Supervisory Board Resolutions],0.0,routine,,claude-opus-5-5
+11349471,00001,2024-09-02 15:10:00,MONTHLY RETURN FOR EQUITY ISSUER ON MOVEMENTS IN SECURITIES FOR THE MONTH ENDED 31 AUGUST 2024,截至2024年8月31日止月份之股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+9672360,02628,2021-03-25 18:49:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告 - 中國人壽保險股份有限公司獨立董事關於公司對外擔保情況的專項說明和獨立意見,Announcements and Notices - [Overseas Regulatory Announcement - Corporate Governance Related Matters],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+11418029,09988,2024-10-29 18:30:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+11585764,01928,2025-03-26 17:11:00,Letter to Registered Shareholders - Attendance at the 2025 Annual General Meeting by Electronic Means,致登記股東之信函 - 透過電子方式出席2025年股東週年大會,Circulars - [Other],0.0,routine,,claude-opus-5-5
+11280111,03690,2024-07-08 20:32:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+10008105,01211,2021-11-10 19:48:00,CLOSURE OF REGISTER OF MEMBERS,暫停辦理過戶登記,Announcements and Notices - [Closure of Books or Change of Book Closure Period],0.0,routine,,claude-opus-5-5
+11445975,00941,2024-11-20 16:45:00,CUSTOMER STATISTICS FOR THE MONTH OF OCTOBER 2024,2024 年10月客戶數據,Announcements and Notices - [Other - Trading Update],0.0,routine,,claude-opus-5-5
+10570444,00857,2023-01-06 18:23:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",中國石油天然氣股份有限公司關於公司副總裁辭任的公告,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,management_change,vice-president resignation (not CFO); EN title is placeholder; labelled from ZH,claude-opus-5-5
+12306039,01211,2026-08-28 20:29:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10386647,01810,2022-08-15 20:01:00,CHANGE OF ADDRESS OF PRINCIPAL PLACE OF BUSINESS IN HONG KONG,更改香港主要營業地點的地址,"Announcements and Notices - [Change in Registered Address or Office, Registered Place of Business in HK or Agent for Service of Process in HK]",0.0,routine,,claude-opus-5-5
+10003797,00291,2021-11-05 18:48:00,Terms of Reference for Audit Committee,審核委員會職權範圍,Announcements and Notices - [Terms of Reference of the Audit Committee],0.0,routine,,claude-opus-5-5
+11217470,00066,2024-05-22 17:25:00,List of Members of the Board and the Executive Directorate and their Roles and Functions,董事局及執行總監會成員名單、角色和職能,Announcements and Notices - [List of Directors and their Role and Function],0.0,routine,,claude-opus-5-5
+11849235,00003,2025-09-22 16:35:00,2025 Interim Report,2025 中期報告,Financial Statements/ESG Information - [Interim/Half-Year Report],0.0,routine,,claude-opus-5-5
+11317505,02628,2024-08-09 16:30:00,Announcement of Premium Income,保費收入公告,Announcements and Notices - [Other - Trading Update],0.0,routine,,claude-opus-5-5
+11367756,03690,2024-09-13 21:02:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+9801609,00066,2021-06-11 16:41:00,"Letter to Existing Registered Shareholders (Circular in relation to ""Scrip Dividend Scheme"" and Election Form) and Request Form",致現有登記股東之函件(關於「以股代息計劃」的通函及選擇表格)及索取表格,Circulars - [Other],0.0,routine,,claude-opus-5-5
+11534561,01299,2025-02-10 18:21:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+11311014,01928,2024-08-05 12:07:00,"Monthly Return of Equity Issuer on Movements in Securities for the month ended July 31, 2024",截至二零二四年七月三十一日止股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+10488589,00175,2022-11-01 16:37:00,Monthly Return for the month ended 31/10/2022,月報表截至31/10/2022,Monthly Returns,0.0,routine,,claude-opus-5-5
+11133416,00005,2024-04-01 18:29:00,Notification of a Transaction by a Person Discharging Managerial Responsibilities,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Corporate Governance Related Matters],0.0,other,ZH title is placeholder; labelled from EN,claude-opus-5-5
+11372313,09988,2024-09-19 18:30:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+9568989,00941,2021-01-04 17:17:00,Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 December 2020,截至二零二零年十二月三十一日止股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+12046886,00669,2026-03-10 17:03:00,Next Day Disclosure Return(Equity issuer - changes in issued share capital and/or share buybacks),翌日披露報表(股份發行人 - 已發行股本變動及/或股份購回),Next Day Disclosure Returns - [Others],0.0,routine,next-day disclosure,claude-opus-5-5
+12073125,01299,2026-03-27 19:21:00,US$1.743 Billion Share Buy-Back Programme,17.43億美元股份回購計劃,Announcements and Notices - [Inside Information],0.5,buyback,US$1.74bn buy-back programme,claude-opus-5-5
+11376037,01299,2024-09-23 17:48:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+11344105,00005,2024-08-30 16:30:00,Next Day Disclosure Return,翌日披露報表,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+10364377,01398,2022-08-01 16:50:00,Monthly Return of Equity Issuer on Movements in Securities for the Month Ended 31 July 2022,截至二零二二年七月三十一日止股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
+11854194,01810,2025-09-25 16:40:00,Notification Letter and Reply Form for Non-registered Holders,致非登記持有人的通知信函及回條,Circulars - [Other],0.0,routine,,claude-opus-5-5
+10501950,00981,2022-11-10 20:15:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告-《2022年第三季度報告》,Announcements and Notices - [Overseas Regulatory Announcement - Trading Update],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10415212,00700,2022-09-01 18:02:00,NOTIFICATION LETTER AND CHANGE REQUEST FORM TO SHAREHOLDERS,致登記股東之通知信函及變更申請表格,Circulars - [Other],0.0,routine,,claude-opus-5-5
+12345682,09999,2026-09-24 18:30:00,2026 INTERIM REPORT,2026中期報告,Financial Statements/ESG Information - [Interim/Half-Year Report],0.0,routine,,claude-opus-5-5
+11322896,00005,2024-08-15 07:30:00,Transaction in own shares,發行人剛在本網站英文版面發布一項公告，相應中文版本或會／或不會在本版面發布。,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,buyback,routine buy-back execution; ZH title is placeholder; labelled from EN,claude-opus-5-5
+9615672,00981,2021-02-04 19:25:00,"An announcement has just been published by the issuer in the Chinese section of this website, a corresponding version of which may or may not be published in this section",海外監管公告 -《科創板信息披露調整適用申請及上海市錦天城律師事務所之法律意見書》,Announcements and Notices - [Overseas Regulatory Announcement - Other],0.0,routine,EN title is placeholder; labelled from ZH,claude-opus-5-5
+10944823,02331,2023-10-27 17:10:00,Next Day Disclosure Return - Share Buyback,翌日披露報表 - 股份購回,Next Day Disclosure Returns - [Share Buyback],0.0,buyback,,claude-opus-5-5
+11309975,09988,2024-08-02 17:30:00,DATE OF BOARD MEETING,董事會會議召開日期,Announcements and Notices - [Date of Board Meeting],0.0,routine,,claude-opus-5-5
+9757549,01398,2021-05-06 17:52:00,Reply Slip for the Annual General Meeting for the Year 2020,2020 年度股東年會回執,Circulars - [Other],0.0,routine,,claude-opus-5-5
+11554434,01093,2025-03-03 18:07:00,MONTHLY RETURN OF EQUITY ISSUER ON MOVEMENTS IN SECURITIES FOR THE MONTH ENDED 28 FEBRUARY 2025,截至二零二五年二月二十八日止月份之股份發行人的證券變動月報表,Monthly Returns,0.0,routine,,claude-opus-5-5
