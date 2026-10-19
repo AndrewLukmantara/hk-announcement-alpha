@@ -21,6 +21,7 @@ case "$1" in
   save)
     mkdir -p "$STORE/raw" "$STORE/cache"
     cp data/raw/*.parquet "$STORE/raw/" 2>/dev/null || true
+    cp data/raw/label_sample.csv "$STORE/raw/" 2>/dev/null || true   # labels for eval-labels
     cp data/cache/* "$STORE/cache/" 2>/dev/null || true
     cd "$STORE"
     git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com add -A
