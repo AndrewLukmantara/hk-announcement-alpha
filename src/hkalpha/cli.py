@@ -54,7 +54,10 @@ def main(argv=None):
     elif args.cmd == "label-sample":
         from .nlp.evaluate import export_label_sample
         path = P["announcements"].parent / "label_sample.csv"
-        export_label_sample(pd.read_parquet(P["announcements"]), path, args.n)
+        ann = pd.read_parquet(P["announcements"])
+        ann = ann[ann["stock_code"].astype(str).str.zfill(5).isin(   # same universe filter as score-llm
+            pd.read_csv(P["universe"], dtype=str)["stock_code"].str.zfill(5))]
+        export_label_sample(ann, path, args.n)
         print(f"wrote {path}: fill label_sentiment / label_event_type, then run eval-labels")
     elif args.cmd == "eval-labels":
         from .nlp.evaluate import evaluate_scorers

@@ -12,9 +12,16 @@ def export_label_sample(ann: pd.DataFrame, path: Path, n: int = 400, seed: int =
     """Stratify by HKEX category so rare-but-important events are represented."""
     uniq = ann.drop_duplicates("news_id")
     strata = uniq.get("category_en", pd.Series("all", index=uniq.index)).fillna("unknown")
+    # HKEX joins several headline tags with " / " (thousands of combinations); stratify on the first
+    # tag only, and drop the "(Headlines Revised)"-style prefixes.
+    strata = (strata.str.replace(r"^\(.*?\)\s*", "", regex=True)
+                    .str.split(" / ").str[0].str.rstrip("]").str.strip())
     per = max(1, n // max(1, strata.nunique()))
-    sample = (uniq.groupby(strata, group_keys=False)
-                  .apply(lambda g: g.sample(min(len(g), per), random_state=seed)))
+    # sample row labels directly: groupby().apply() drops the grouping column in pandas >= 3
+    idx = [i for _, g in uniq.groupby(strata) for i in g.sample(min(len(g), per), random_state=seed).index]
+    sample = uniq.loc[idx]
+    if len(sample) > n:
+        sample = sample.sample(n, random_state=seed)
     if len(sample) < n:
         rest = uniq.drop(sample.index)
         sample = pd.concat([sample, rest.sample(min(len(rest), n - len(sample)), random_state=seed)])
