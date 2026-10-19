@@ -19,6 +19,7 @@ jobs:
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
+      - run: echo "JOB_START=$(date +%s)" >> "$GITHUB_ENV"
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
@@ -37,9 +38,18 @@ jobs:
       - name: Save data branch
         if: always()
         run: scripts/data_branch.sh save "history fetch $(date -u +%F)"
+      # Scores are appended to data/cache as they arrive. Stop with ~55 min of the job left so
+      # they are always saved; re-run the workflow to score the rest.
       - name: LLM scoring
         if: env.ANTHROPIC_API_KEY != ''
-        run: hkalpha score-llm && scripts/data_branch.sh save "llm scores $(date -u +%F)"
+        run: |
+          LEFT=$(( 300 - ( $(date +%s) - JOB_START ) / 60 ))
+          if [ "$LEFT" -lt 10 ]; then echo "::warning::no time left for LLM scoring; re-run"; exit 0; fi
+          echo "LLM time budget: ${LEFT} min"
+          timeout "${LEFT}m" hkalpha score-llm || echo "::warning::LLM scoring stopped early; re-run to resume"
+      - name: Save LLM scores
+        if: always() && env.ANTHROPIC_API_KEY != ''
+        run: scripts/data_branch.sh save "llm scores $(date -u +%F)"
       - name: Research run
         if: github.event.inputs.run_study == 'true'
         run: |
