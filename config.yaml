@@ -19,7 +19,9 @@ nlp:
   use_llm: false                   # true -> score with Claude (needs ANTHROPIC_API_KEY)
   llm_model: claude-haiku-4-5      # training data ends Jul 2025 -> ~14 months of look-ahead-free OOS.
                                    # Haiku 5.5 is stronger but its data runs to Jun 2026 (only ~3.5 months clean).
-  llm_lang_modes: [both, en, zh]
+  llm_lang_modes: [both]           # [both, en, zh] adds the bilingual horse race at 3x the cost
+  llm_score_from: "2025-08-01"     # score only the clean OOS window (+ label_sample.csv), ~5.4k calls;
+                                   # "" scores the whole sample (~25k calls per mode)
   llm_max_workers: 8
   use_pdf_text: false              # true -> also send first ~2,000 chars of the PDF to the LLM
 
@@ -29,7 +31,7 @@ event_study:
   min_est_obs: 120
 
 signal:
-  primary: kw_both                 # switch to llm_both once LLM scores exist
+  primary: kw_both                 # llm_both only if nlp.llm_score_from is "" (whole sample scored)
   half_lives: [2, 5, 10, 20]       # trading days; chosen on in-sample IC
   selection_horizon: 5             # IC horizon used for half-life selection
   flow_window: 5                   # Southbound shareholding change window (days)

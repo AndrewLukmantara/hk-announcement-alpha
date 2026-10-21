@@ -24,7 +24,8 @@ def main(argv=None):
     ev.add_argument("--synthetic", action="store_true")
     r = sub.add_parser("run"); r.add_argument("--synthetic", action="store_true")
     r.add_argument("--regenerate", action="store_true")
-    r.add_argument("--use-llm", action="store_true", help="include cached LLM scores; primary signal = llm_both")
+    r.add_argument("--use-llm", action="store_true", help="include cached LLM scores; primary signal = llm_both "
+                                                            "unless nlp.llm_score_from limits scoring to OOS")
     args = p.parse_args(argv)
 
     cfg = load_config(args.config)
@@ -49,6 +50,13 @@ def main(argv=None):
         ann = pd.read_parquet(P["announcements"])
         ann = ann[ann["stock_code"].astype(str).str.zfill(5).isin(
             pd.read_csv(P["universe"], dtype=str)["stock_code"].str.zfill(5))] if not args.synthetic else ann
+        since = cfg["nlp"].get("llm_score_from")
+        if since:  # score only the clean OOS window, plus the hand-labelled sample for eval-labels
+            keep = pd.to_datetime(ann["datetime"]) >= pd.Timestamp(since)
+            labels = P["announcements"].parent / "label_sample.csv"
+            if labels.exists():
+                keep |= ann["news_id"].astype(str).isin(pd.read_csv(labels, dtype=str)["news_id"])
+            ann = ann[keep]
         for mode in cfg["nlp"]["llm_lang_modes"]:
             llm_scores(ann, mode, cfg, P["llm_cache"], offline=False)
     elif args.cmd == "label-sample":
@@ -63,13 +71,15 @@ def main(argv=None):
         from .nlp.evaluate import evaluate_scorers
         labels = pd.read_csv(args.labels, dtype={"news_id": str})
         scores = pd.read_parquet(P["scores"])
-        cols = [c for c in scores.columns if c.startswith(("kw_", "llm_", "category")) and not c.endswith("surprise")]
+        cols = [c for c in scores.columns if c.startswith(("kw_", "llm_", "category")) and not c.endswith("surprise")
+                and pd.api.types.is_numeric_dtype(scores[c])]
         print(evaluate_scorers(labels, scores, cols).to_string(index=False))
     elif args.cmd == "run":
         from .pipeline import run
         if args.use_llm:
             cfg["nlp"]["use_llm"] = True
-            cfg["signal"]["primary"] = "llm_both"
+            if not cfg["nlp"].get("llm_score_from"):  # OOS-only scores can't drive the in-sample study
+                cfg["signal"]["primary"] = "llm_both"
         run(cfg, synthetic=args.synthetic, regenerate=args.regenerate)
 
 

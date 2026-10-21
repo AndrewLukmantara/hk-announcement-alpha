@@ -56,6 +56,10 @@ def run(cfg: dict, synthetic: bool = False, regenerate: bool = False, llm_offlin
     scores = score_all(ev, cfg, P["llm_cache"], llm_offline=llm_offline)
     ev = pd.concat([ev, scores], axis=1)
     ev[["news_id", "stock_code", "entry_date"] + list(scores.columns)].to_parquet(P["scores"], index=False)
+    if cfg["nlp"].get("llm_score_from"):
+        # the few in-sample LLM scores exist only for eval-labels; keep them out of the study
+        early = ev["entry_date"] < pd.Timestamp(cfg["nlp"]["llm_score_from"])
+        ev.loc[early, [c for c in ev if c.startswith("llm_")]] = np.nan
     for name, panel_df in [("flow_z", flow_z), ("short_z", short_z), ("log_adv", log_adv)]:
         ev[name] = lookup(panel_df, ev["entry_date"], ev["stock_code"])
     primary = cfg["signal"]["primary"]
@@ -94,11 +98,13 @@ def run(cfg: dict, synthetic: bool = False, regenerate: bool = False, llm_offlin
     def best_hl(x):
         stats = {hl: ic_stats(ic_series(decayed(x, hl), ret, eligible, h_sel)[is_mask])["ic_mean"] for hl in hls}
         stats = {k: v for k, v in stats.items() if np.isfinite(v)}
-        return max(stats, key=stats.get) if stats else hls[0]
+        return max(stats, key=stats.get) if stats else None
 
     signals, chosen = {}, {}
+    chosen[primary] = best_hl(raw[primary]) or hls[0]
     for v in variants:
-        chosen[v] = best_hl(raw[v])
+        # a scorer with no in-sample scores (e.g. OOS-only LLM) borrows the primary's half-life
+        chosen[v] = chosen[primary] if v == primary else (best_hl(raw[v]) or chosen[primary])
         signals[v] = decayed(raw[v], chosen[v])
     signals[f"{primary}_x_flow"] = flow_tilt(signals[primary], flow_z, cfg["signal"]["flow_tilt"])
     chosen[f"{primary}_x_flow"] = chosen[primary]
